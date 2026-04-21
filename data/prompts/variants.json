@@ -1,0 +1,22 @@
+{
+  "mmlu": {
+    "template_A_direct": "Answer the following multiple choice question. Question: {question} Options: {options} Answer:",
+    "template_B_role": "As an expert, answer this multiple choice question. Question: {question} Options: {options} Answer:",
+    "template_C_verbose": "Please provide a detailed answer to this multiple choice question. Question: {question} Options: {options} Provide only the letter.",
+    "template_D_minimal": "{question} {options} Answer:",
+    "template_E_numbered": "(1) Question: {question} (2) Options: {options} (3) Answer:",
+    "template_F_bullets": "\u2022 Question: {question}\n\u2022 Options: {options}\n\u2022 Provide your answer:",
+    "template_G_question": "Which of the following is correct? {question} {options}",
+    "template_H_narrative": "{question} Among {options}, the correct answer is:"
+  },
+  "squad": {
+    "template_A_direct": "Read the context and answer the question. Context: {context} Question: {question} Answer:",
+    "template_B_role": "As a reading comprehension expert: Context: {context} Question: {question} Answer:",
+    "template_C_verbose": "Based on the provided context, please answer the following question. Context: {context} Question: {question} Your answer:",
+    "template_D_minimal": "{context} Q: {question} A:",
+    "template_E_numbered": "(1) Context: {context} (2) Question: {question} (3) Answer:",
+    "template_F_bullets": "\u2022 Context: {context}\n\u2022 Question: {question}\n\u2022 Answer the question directly:",
+    "template_G_question": "From the given context, answer: {question} Context: {context}",
+    "template_H_narrative": "Reading this context: {context}. Now, what is the answer to '{question}'?"
+  }
+}

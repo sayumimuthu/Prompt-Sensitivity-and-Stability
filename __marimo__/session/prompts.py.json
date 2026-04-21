@@ -1,0 +1,128 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.1",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "8abab823ff8f54e0bc24cd1e903087df",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "71cec559b7dfb6ab97b6f749ac292e2e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Directory structure created\nSample datasets created (data/datasets/)\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "vblA",
+      "code_hash": "a946de38806f51c00ee462d6af3a458b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": " Prompt variants defined (data/prompts/variants.json)\n   Templates per task: 8 variants\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "85bf063afc5e98141e37ac3d71a772d5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Generated 16 MMLU prompts\nGenerated 16 SQuAD prompts\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "f2e3668e6b28dafc2f74d0355a11f179",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\n Running inference...\n Completed inference (96 prompts)\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "PKri",
+      "code_hash": "fce53611562fa59af100c68cb9e24c00",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": " Results saved to data/raw_results/inference_results.csv\n\n ACCURACY BY MODEL & TEMPLATE:\n------------------------------------------------------------\nflan_t5_template_A_direct                 25.0% (1/4)\nflan_t5_template_B_role                   25.0% (1/4)\nflan_t5_template_C_verbose                25.0% (1/4)\nflan_t5_template_D_minimal                25.0% (1/4)\nflan_t5_template_E_numbered                0.0% (0/4)\nflan_t5_template_F_bullets                 0.0% (0/4)\nflan_t5_template_G_question               25.0% (1/4)\nflan_t5_template_H_narrative               0.0% (0/4)\ngpt4_mini_template_A_direct                0.0% (0/4)\ngpt4_mini_template_B_role                 75.0% (3/4)\ngpt4_mini_template_C_verbose              25.0% (1/4)\ngpt4_mini_template_D_minimal              25.0% (1/4)\ngpt4_mini_template_E_numbered             25.0% (1/4)\ngpt4_mini_template_F_bullets               0.0% (0/4)\ngpt4_mini_template_G_question             25.0% (1/4)\ngpt4_mini_template_H_narrative            25.0% (1/4)\nllama2_template_A_direct                  25.0% (1/4)\nllama2_template_B_role                    25.0% (1/4)\nllama2_template_C_verbose                 50.0% (2/4)\nllama2_template_D_minimal                 25.0% (1/4)\nllama2_template_E_numbered                 0.0% (0/4)\nllama2_template_F_bullets                 25.0% (1/4)\nllama2_template_G_question                25.0% (1/4)\nllama2_template_H_narrative               75.0% (3/4)\n\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n Week 1 Quick Start Complete!\n\n NEXT STEPS:\n1. Replace mock_inference() with real API calls (OpenAI, Ollama, etc.)\n2. Expand sample datasets to full size (15-20 items per task)\n3. Run with all 3 models\n4. In Week 2, compute semantic stability metrics\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "Xref",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}

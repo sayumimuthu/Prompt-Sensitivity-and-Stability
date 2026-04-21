@@ -1,0 +1,14 @@
+[
+  {
+    "id": "squad_1",
+    "question": "What is the smallest country in the world?",
+    "context": "Vatican City is the smallest country in the world.",
+    "gold_answer": "Vatican City"
+  },
+  {
+    "id": "squad_2",
+    "question": "What color is the sky?",
+    "context": "The sky appears blue due to Rayleigh scattering.",
+    "gold_answer": "blue"
+  }
+]

@@ -1,0 +1,97 @@
+item_id,template_name,model,response,gold_answer,is_correct
+mmlu_1,template_A_direct,llama2,Paris,B,False
+mmlu_1,template_B_role,llama2,Paris,B,False
+mmlu_1,template_C_verbose,llama2,Paris,B,False
+mmlu_1,template_D_minimal,llama2,Paris,B,False
+mmlu_1,template_E_numbered,llama2,Paris,B,False
+mmlu_1,template_F_bullets,llama2,Paris,B,False
+mmlu_1,template_G_question,llama2,B,B,True
+mmlu_1,template_H_narrative,llama2,B,B,True
+mmlu_2,template_A_direct,llama2,Paris,B,False
+mmlu_2,template_B_role,llama2,Paris,B,False
+mmlu_2,template_C_verbose,llama2,B,B,True
+mmlu_2,template_D_minimal,llama2,Paris,B,False
+mmlu_2,template_E_numbered,llama2,Vatican City,B,False
+mmlu_2,template_F_bullets,llama2,Vatican City,B,False
+mmlu_2,template_G_question,llama2,Vatican City,B,False
+mmlu_2,template_H_narrative,llama2,B,B,True
+squad_1,template_A_direct,llama2,Vatican City,Vatican City,True
+squad_1,template_B_role,llama2,Vatican City,Vatican City,True
+squad_1,template_C_verbose,llama2,Vatican City,Vatican City,True
+squad_1,template_D_minimal,llama2,Vatican City,Vatican City,True
+squad_1,template_E_numbered,llama2,Paris,Vatican City,False
+squad_1,template_F_bullets,llama2,Vatican City,Vatican City,True
+squad_1,template_G_question,llama2,B,Vatican City,False
+squad_1,template_H_narrative,llama2,Vatican City,Vatican City,True
+squad_2,template_A_direct,llama2,Paris,blue,False
+squad_2,template_B_role,llama2,Vatican City,blue,False
+squad_2,template_C_verbose,llama2,B,blue,False
+squad_2,template_D_minimal,llama2,Vatican City,blue,False
+squad_2,template_E_numbered,llama2,B,blue,False
+squad_2,template_F_bullets,llama2,Vatican City,blue,False
+squad_2,template_G_question,llama2,B,blue,False
+squad_2,template_H_narrative,llama2,Paris,blue,False
+mmlu_1,template_A_direct,flan_t5,B,B,True
+mmlu_1,template_B_role,flan_t5,B,B,True
+mmlu_1,template_C_verbose,flan_t5,Vatican,B,False
+mmlu_1,template_D_minimal,flan_t5,B,B,True
+mmlu_1,template_E_numbered,flan_t5,Vatican,B,False
+mmlu_1,template_F_bullets,flan_t5,Vatican,B,False
+mmlu_1,template_G_question,flan_t5,B,B,True
+mmlu_1,template_H_narrative,flan_t5,Paris,B,False
+mmlu_2,template_A_direct,flan_t5,Vatican,B,False
+mmlu_2,template_B_role,flan_t5,Paris,B,False
+mmlu_2,template_C_verbose,flan_t5,B,B,True
+mmlu_2,template_D_minimal,flan_t5,Paris,B,False
+mmlu_2,template_E_numbered,flan_t5,Paris,B,False
+mmlu_2,template_F_bullets,flan_t5,Vatican,B,False
+mmlu_2,template_G_question,flan_t5,Paris,B,False
+mmlu_2,template_H_narrative,flan_t5,Vatican,B,False
+squad_1,template_A_direct,flan_t5,B,Vatican City,False
+squad_1,template_B_role,flan_t5,B,Vatican City,False
+squad_1,template_C_verbose,flan_t5,Paris,Vatican City,False
+squad_1,template_D_minimal,flan_t5,Paris,Vatican City,False
+squad_1,template_E_numbered,flan_t5,Paris,Vatican City,False
+squad_1,template_F_bullets,flan_t5,Paris,Vatican City,False
+squad_1,template_G_question,flan_t5,Vatican,Vatican City,False
+squad_1,template_H_narrative,flan_t5,Paris,Vatican City,False
+squad_2,template_A_direct,flan_t5,Paris,blue,False
+squad_2,template_B_role,flan_t5,Paris,blue,False
+squad_2,template_C_verbose,flan_t5,B,blue,False
+squad_2,template_D_minimal,flan_t5,Paris,blue,False
+squad_2,template_E_numbered,flan_t5,Paris,blue,False
+squad_2,template_F_bullets,flan_t5,B,blue,False
+squad_2,template_G_question,flan_t5,Paris,blue,False
+squad_2,template_H_narrative,flan_t5,Vatican,blue,False
+mmlu_1,template_A_direct,gpt4_mini,Paris,B,False
+mmlu_1,template_B_role,gpt4_mini,B,B,True
+mmlu_1,template_C_verbose,gpt4_mini,B,B,True
+mmlu_1,template_D_minimal,gpt4_mini,Paris,B,False
+mmlu_1,template_E_numbered,gpt4_mini,Vatican City,B,False
+mmlu_1,template_F_bullets,gpt4_mini,Paris,B,False
+mmlu_1,template_G_question,gpt4_mini,Vatican City,B,False
+mmlu_1,template_H_narrative,gpt4_mini,Vatican City,B,False
+mmlu_2,template_A_direct,gpt4_mini,Paris,B,False
+mmlu_2,template_B_role,gpt4_mini,B,B,True
+mmlu_2,template_C_verbose,gpt4_mini,Paris,B,False
+mmlu_2,template_D_minimal,gpt4_mini,Vatican City,B,False
+mmlu_2,template_E_numbered,gpt4_mini,Paris,B,False
+mmlu_2,template_F_bullets,gpt4_mini,Paris,B,False
+mmlu_2,template_G_question,gpt4_mini,Paris,B,False
+mmlu_2,template_H_narrative,gpt4_mini,Vatican City,B,False
+squad_1,template_A_direct,gpt4_mini,Paris,Vatican City,False
+squad_1,template_B_role,gpt4_mini,Vatican City,Vatican City,True
+squad_1,template_C_verbose,gpt4_mini,B,Vatican City,False
+squad_1,template_D_minimal,gpt4_mini,Vatican City,Vatican City,True
+squad_1,template_E_numbered,gpt4_mini,Vatican City,Vatican City,True
+squad_1,template_F_bullets,gpt4_mini,B,Vatican City,False
+squad_1,template_G_question,gpt4_mini,Vatican City,Vatican City,True
+squad_1,template_H_narrative,gpt4_mini,Vatican City,Vatican City,True
+squad_2,template_A_direct,gpt4_mini,Vatican City,blue,False
+squad_2,template_B_role,gpt4_mini,Paris,blue,False
+squad_2,template_C_verbose,gpt4_mini,B,blue,False
+squad_2,template_D_minimal,gpt4_mini,B,blue,False
+squad_2,template_E_numbered,gpt4_mini,Paris,blue,False
+squad_2,template_F_bullets,gpt4_mini,Paris,blue,False
+squad_2,template_G_question,gpt4_mini,Vatican City,blue,False
+squad_2,template_H_narrative,gpt4_mini,Vatican City,blue,False
