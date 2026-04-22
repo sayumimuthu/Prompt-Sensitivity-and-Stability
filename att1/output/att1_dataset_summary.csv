@@ -1,0 +1,5 @@
+dataset,n,exact_match,f1
+arc_challenge,120,1.0,0.0
+arc_easy,120,1.0,0.0
+boolq,120,1.0,0.0
+squad,120,1.0,0.9904761904761905

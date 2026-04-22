@@ -1,0 +1,5 @@
+dataset,mean_item_std
+arc_challenge,0.0
+arc_easy,0.0
+boolq,0.0
+squad,0.0

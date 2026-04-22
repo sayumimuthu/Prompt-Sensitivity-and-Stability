@@ -1,0 +1,47 @@
+{
+  "n_rows": 480,
+  "dataset_summary": [
+    {
+      "dataset": "arc_challenge",
+      "n": 120,
+      "exact_match": 1.0,
+      "f1": 0.0
+    },
+    {
+      "dataset": "arc_easy",
+      "n": 120,
+      "exact_match": 1.0,
+      "f1": 0.0
+    },
+    {
+      "dataset": "boolq",
+      "n": 120,
+      "exact_match": 1.0,
+      "f1": 0.0
+    },
+    {
+      "dataset": "squad",
+      "n": 120,
+      "exact_match": 1.0,
+      "f1": 0.9904761904761905
+    }
+  ],
+  "dataset_sensitivity": [
+    {
+      "dataset": "arc_challenge",
+      "mean_item_std": 0.0
+    },
+    {
+      "dataset": "arc_easy",
+      "mean_item_std": 0.0
+    },
+    {
+      "dataset": "boolq",
+      "mean_item_std": 0.0
+    },
+    {
+      "dataset": "squad",
+      "mean_item_std": 0.0
+    }
+  ]
+}
