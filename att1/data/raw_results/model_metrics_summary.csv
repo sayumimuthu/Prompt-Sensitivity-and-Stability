@@ -1,0 +1,2 @@
+model,backend,n_items,mean_sens_acc,mean_stab_sem,mean_eval_artifact,mean_real_instability,mean_accuracy,mean_f1
+gpt-4o-mini,mock,60,0.0,1.0,0.0,0.0,1.0,0.9904761904761905
