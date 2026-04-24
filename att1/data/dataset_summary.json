@@ -2,25 +2,21 @@
   {
     "dataset": "arc_easy",
     "n": 15,
-    "split": "test",
-    "task_type": "mcq"
+    "split": "test"
   },
   {
     "dataset": "arc_challenge",
     "n": 15,
-    "split": "test",
-    "task_type": "mcq"
+    "split": "test"
   },
   {
     "dataset": "boolq",
     "n": 15,
-    "split": "validation",
-    "task_type": "boolean"
+    "split": "validation"
   },
   {
     "dataset": "squad",
     "n": 15,
-    "split": "validation",
-    "task_type": "qa"
+    "split": "validation"
   }
 ]

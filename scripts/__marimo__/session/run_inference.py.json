@@ -7,43 +7,150 @@
   "cells": [
     {
       "id": "Hbol",
-      "code_hash": null,
-      "outputs": [],
+      "code_hash": "fd02a64b1cc38e032af27beb6c07b495",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "MJUe",
-      "code_hash": null,
-      "outputs": [],
+      "code_hash": "f59d74c37e08504e2904d075b1de0921",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "vblA",
-      "code_hash": null,
-      "outputs": [],
+      "code_hash": "3e068bf7cb88d76bfaa46404193757d5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "bkHC",
-      "code_hash": null,
-      "outputs": [],
+      "code_hash": "ecb45588ecaefa01dff4ac366f7374f2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "lEQa",
-      "code_hash": null,
-      "outputs": [],
+      "code_hash": "a390b9fecfaf060e99926186c725c73b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "PKri",
-      "code_hash": null,
-      "outputs": [],
+      "code_hash": "61b4ce3edbc8e4a799f817606ea9852a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "Xref",
-      "code_hash": null,
+      "code_hash": "538ea636dee23463bc293e3aa6475c39",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "0de83cdc8dd847fa9f82e2132eb2c4af",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "64b36eed1b6994412e65e54c906ea0b7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MNCm",
+      "code_hash": "743fc40297f197e2bc78b2e91461edf0",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "401 Client Error: Unauthorized for url: http://localhost:2720/api/chat",
+          "traceback": null
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Running inference with backend=ollama, model=llama3.1:8b\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_2001741/__marimo__cell_MNCm_.py&quot;</span>, line <span class=\"m\">2</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">main</span><span class=\"p\">()</span>\n<span class=\"w\">    </span><span class=\"pm\">~~~~^^</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_2001741/__marimo__cell_BYtC_.py&quot;</span>, line <span class=\"m\">61</span>, in <span class=\"n\">main</span>\n<span class=\"w\">    </span><span class=\"n\">raw_response</span> <span class=\"o\">=</span> <span class=\"n\">infer_ollama</span><span class=\"p\">(</span><span class=\"n\">prompt</span><span class=\"p\">,</span> <span class=\"n\">args</span><span class=\"o\">.</span><span class=\"n\">model</span><span class=\"p\">,</span> <span class=\"n\">args</span><span class=\"o\">.</span><span class=\"n\">temperature</span><span class=\"p\">,</span> <span class=\"n\">args</span><span class=\"o\">.</span><span class=\"n\">max_tokens</span><span class=\"p\">,</span> <span class=\"n\">base_url</span><span class=\"p\">)</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_2001741/__marimo__cell_bkHC_.py&quot;</span>, line <span class=\"m\">13</span>, in <span class=\"n\">infer_ollama</span>\n<span class=\"w\">    </span><span class=\"n\">response</span><span class=\"o\">.</span><span class=\"n\">raise_for_status</span><span class=\"p\">()</span>\n<span class=\"w\">    </span><span class=\"pm\">~~~~~~~~~~~~~~~~~~~~~~~~~^^</span>\n  File <span class=\"nb\">&quot;/opt/conda/lib/python3.13/site-packages/requests/models.py&quot;</span>, line <span class=\"m\">1026</span>, in <span class=\"n\">raise_for_status</span>\n<span class=\"w\">    </span><span class=\"k\">raise</span> <span class=\"n\">HTTPError</span><span class=\"p\">(</span><span class=\"n\">http_error_msg</span><span class=\"p\">,</span> <span class=\"n\">response</span><span class=\"o\">=</span><span class=\"bp\">self</span><span class=\"p\">)</span>\n<span class=\"gr\">requests.exceptions.HTTPError</span>: <span class=\"n\">401 Client Error: Unauthorized for url: http://localhost:2720/api/chat</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "891ba307e3da233fab5f24e604b51962",
       "outputs": [],
       "console": []
     }
