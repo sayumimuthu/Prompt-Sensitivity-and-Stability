@@ -1,0 +1,84 @@
+WARNING: myenv not found at /opt/anaconda3/envs/myenv/bin/python — using system python (packages may be missing)
+ Model  : llama3.2:1b
+ Backend: ollama
+ N items: 30 per dataset  (limit=0)
+ Output : study/output/llama3.2-1b
+[1/4] Prompts already exist at study/output/prompts.jsonl — skipping.
+
+[2/4] Running inference...
+Inference: backend=ollama  model=llama3.2:1b  device=n/a  n=720
+  50/720 done  (errors so far: 0)
+  100/720 done  (errors so far: 0)
+  150/720 done  (errors so far: 0)
+  200/720 done  (errors so far: 0)
+  250/720 done  (errors so far: 0)
+  300/720 done  (errors so far: 0)
+  350/720 done  (errors so far: 0)
+  400/720 done  (errors so far: 0)
+  450/720 done  (errors so far: 0)
+  500/720 done  (errors so far: 0)
+  550/720 done  (errors so far: 0)
+  600/720 done  (errors so far: 0)
+  650/720 done  (errors so far: 0)
+  700/720 done  (errors so far: 0)
+  720/720 done  (errors so far: 0)
+Wrote 720 rows to study/output/llama3.2-1b/responses.jsonl  (errors: 0)
+
+[3/4] Running LLM-as-Judge...
+LLM-as-Judge: backend=ollama  model=llama3.1:8b  device=n/a  n=720
+  50/720 judged  |  accuracy so far: 12.0%  (errors: 0)
+  100/720 judged  |  accuracy so far: 29.0%  (errors: 0)
+  150/720 judged  |  accuracy so far: 27.3%  (errors: 0)
+  200/720 judged  |  accuracy so far: 30.0%  (errors: 0)
+  250/720 judged  |  accuracy so far: 36.4%  (errors: 0)
+  300/720 judged  |  accuracy so far: 40.3%  (errors: 0)
+  350/720 judged  |  accuracy so far: 41.4%  (errors: 0)
+  400/720 judged  |  accuracy so far: 41.8%  (errors: 0)
+  450/720 judged  |  accuracy so far: 43.1%  (errors: 0)
+  500/720 judged  |  accuracy so far: 45.2%  (errors: 0)
+  550/720 judged  |  accuracy so far: 46.0%  (errors: 0)
+  600/720 judged  |  accuracy so far: 49.3%  (errors: 0)
+  650/720 judged  |  accuracy so far: 53.1%  (errors: 0)
+  700/720 judged  |  accuracy so far: 54.0%  (errors: 0)
+  720/720 judged  |  accuracy so far: 55.0%  (errors: 0)
+Wrote 720 rows to study/output/llama3.2-1b/judged.jsonl
+Overall judge accuracy: 396/720 = 55.0%
+
+[4/4] Computing metrics...
+  Loaded 720 rows from study/output/llama3.2-1b/judged.jsonl
+sentence-transformers not installed — skipping StabSem. Install with: pip install sentence-transformers
+
+Tri-zone thresholds — EAS median: 0.0000  SensJudge threshold: 0.4330  (SensJudge median=0.0000)
+Saved instance metrics → study/output/llama3.2-1b/metrics_instance.csv
+
+TRI-ZONE COUNTS BY (DATASET, MODEL)
+trizone                    artifact  stable
+dataset       model_name                   
+arc_challenge llama3.2:1b        16      14
+boolq         llama3.2:1b        16      14
+squad         llama3.2:1b        24       6
+
+MEAN EAS BY DATASET
+               sens_heuristic  sens_judge     eas
+dataset                                          
+arc_challenge          0.2294      0.2514  0.0656
+boolq                  0.1841      0.2460  0.0619
+squad                  0.1584      0.0999  0.1989
+
+Saved dataset metrics → study/output/llama3.2-1b/metrics_dataset.csv
+
+STRUCTURAL ABLATION: FACTOR MAIN EFFECTS
+Model                               Factor     ΔHeuristic     ΔJudge     Δ(H-J)
+  llama3.2:1b                       role          -0.0197    -0.0111    -0.0085
+  llama3.2:1b                       fmt           +0.0192    -0.0056    +0.0248
+  llama3.2:1b                       prefix        -0.0188    -0.0056    -0.0133
+  Warning: dataset CSV not found at study/output/metrics_dataset.csv — skipping Fig 5
+Generating figures...
+  Saved study/output/llama3.2-1b/figures/fig1_trizone.png
+  Saved study/output/llama3.2-1b/figures/fig2_scatter.png
+  Saved study/output/llama3.2-1b/figures/fig3_ablation.png
+  Saved study/output/llama3.2-1b/figures/fig4_eas_by_task.png
+  Saved study/output/llama3.2-1b/figures/fig6_signed_eas.png
+Done.
+
+Done. Results in study/output/llama3.2-1b/

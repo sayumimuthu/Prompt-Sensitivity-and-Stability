@@ -1,0 +1,90 @@
+WARNING: myenv not found at /opt/anaconda3/envs/myenv/bin/python — using system python (packages may be missing)
+ Model  : llama3.1:8b
+ Backend: ollama
+ N items: 30 per dataset  (limit=0)
+ Output : study/output/llama3.1-8b
+
+[1/4] Preparing prompts...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  Loaded 30 items from arc_challenge
+  Loaded 30 items from boolq
+  Loaded 30 items from squad
+Wrote 720 prompts to study/output/prompts.jsonl  (expected 720)
+
+[2/4] Running inference...
+Inference: backend=ollama  model=llama3.1:8b  device=n/a  n=720
+  50/720 done  (errors so far: 0)
+  100/720 done  (errors so far: 0)
+  150/720 done  (errors so far: 0)
+  200/720 done  (errors so far: 0)
+  250/720 done  (errors so far: 0)
+  300/720 done  (errors so far: 0)
+  350/720 done  (errors so far: 0)
+  400/720 done  (errors so far: 0)
+  450/720 done  (errors so far: 0)
+  500/720 done  (errors so far: 0)
+  550/720 done  (errors so far: 0)
+  600/720 done  (errors so far: 0)
+  650/720 done  (errors so far: 0)
+  700/720 done  (errors so far: 0)
+  720/720 done  (errors so far: 0)
+Wrote 720 rows to study/output/llama3.1-8b/responses.jsonl  (errors: 0)
+
+[3/4] Running LLM-as-Judge...
+LLM-as-Judge: backend=ollama  model=llama3.1:8b  device=n/a  n=720
+  50/720 judged  |  accuracy so far: 68.0%  (errors: 0)
+  100/720 judged  |  accuracy so far: 66.0%  (errors: 0)
+  150/720 judged  |  accuracy so far: 64.0%  (errors: 0)
+  200/720 judged  |  accuracy so far: 63.0%  (errors: 0)
+  250/720 judged  |  accuracy so far: 66.0%  (errors: 0)
+  300/720 judged  |  accuracy so far: 71.0%  (errors: 0)
+  350/720 judged  |  accuracy so far: 71.1%  (errors: 0)
+  400/720 judged  |  accuracy so far: 71.0%  (errors: 0)
+  450/720 judged  |  accuracy so far: 71.6%  (errors: 0)
+  500/720 judged  |  accuracy so far: 72.8%  (errors: 0)
+  550/720 judged  |  accuracy so far: 75.3%  (errors: 0)
+  600/720 judged  |  accuracy so far: 76.8%  (errors: 0)
+  650/720 judged  |  accuracy so far: 77.4%  (errors: 0)
+  700/720 judged  |  accuracy so far: 77.4%  (errors: 0)
+  720/720 judged  |  accuracy so far: 77.8%  (errors: 0)
+Wrote 720 rows to study/output/llama3.1-8b/judged.jsonl
+Overall judge accuracy: 560/720 = 77.8%
+
+[4/4] Computing metrics...
+  Loaded 720 rows from study/output/llama3.1-8b/judged.jsonl
+sentence-transformers not installed — skipping StabSem. Install with: pip install sentence-transformers
+
+Tri-zone thresholds — EAS median: 0.1219  SensJudge threshold: 0.4074  (SensJudge median=0.0000)
+Saved instance metrics → study/output/llama3.1-8b/metrics_instance.csv
+
+TRI-ZONE COUNTS BY (DATASET, MODEL)
+trizone                    artifact  genuine  stable
+dataset       model_name                            
+arc_challenge llama3.1:8b         6        3      21
+boolq         llama3.1:8b         3        2      25
+squad         llama3.1:8b        18        0      12
+
+MEAN EAS BY DATASET
+               sens_heuristic  sens_judge     eas
+dataset                                          
+arc_challenge          0.0919      0.2505  0.1875
+boolq                  0.0289      0.1903  0.1614
+squad                  0.1604      0.0549  0.1584
+
+Saved dataset metrics → study/output/llama3.1-8b/metrics_dataset.csv
+
+STRUCTURAL ABLATION: FACTOR MAIN EFFECTS
+Model                               Factor     ΔHeuristic     ΔJudge     Δ(H-J)
+  llama3.1:8b                       role          -0.0371    +0.0000    -0.0371
+  llama3.1:8b                       fmt           +0.0501    +0.1667    -0.1166
+  llama3.1:8b                       prefix        +0.0325    -0.0333    +0.0658
+  Warning: dataset CSV not found at study/output/metrics_dataset.csv — skipping Fig 5
+Generating figures...
+  Saved study/output/llama3.1-8b/figures/fig1_trizone.png
+  Saved study/output/llama3.1-8b/figures/fig2_scatter.png
+  Saved study/output/llama3.1-8b/figures/fig3_ablation.png
+  Saved study/output/llama3.1-8b/figures/fig4_eas_by_task.png
+  Saved study/output/llama3.1-8b/figures/fig6_signed_eas.png
+Done.
+
+Done. Results in study/output/llama3.1-8b/

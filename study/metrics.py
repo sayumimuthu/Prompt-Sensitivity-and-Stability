@@ -5,6 +5,7 @@ Per instance (item × model):
   sens_heuristic  — std of heuristic correctness scores across 8 templates
   sens_judge      — std of judge_correct across 8 templates
   eas             — |sens_heuristic - sens_judge|  (Evaluation-Attributable Sensitivity)
+  signed_eas      — sens_heuristic - sens_judge  (positive = heuristic overestimates)
   stab_sem        — avg pairwise cosine similarity of 8 responses (semantic stability)
   trizone         — "artifact" | "genuine" | "stable"
   effect_{factor}_{eval} — main effect of each structural factor on each eval method
@@ -115,6 +116,15 @@ def sem_stability(responses: List[str], model) -> float:
     return float(np.mean(sims))
 
 
+def bootstrap_ci(values: np.ndarray, n_boot: int = 1000, ci: float = 0.95) -> tuple:
+    rng  = np.random.default_rng(42)
+    boot = np.array([rng.choice(values, len(values), replace=True).mean()
+                     for _ in range(n_boot)])
+    lo = float(np.percentile(boot, (1 - ci) / 2 * 100))
+    hi = float(np.percentile(boot, (1 + ci) / 2 * 100))
+    return lo, hi
+
+
 # Tri-zone classification
 
 def classify_trizone(eas: float, sens_judge: float,
@@ -198,6 +208,7 @@ def main() -> None:
             "sens_heuristic": sens_heuristic,
             "sens_judge":     sens_judge,
             "eas":            eas,
+            "signed_eas":     sens_heuristic - sens_judge,
             "mean_heuristic": mean_heuristic,
             "mean_judge":     mean_judge,
             "stab_sem":       stab_sem,
@@ -213,11 +224,15 @@ def main() -> None:
 
     inst_df = pd.DataFrame(instance_records)
 
-    # Tri-zone thresholds: median split across all instances
+    # Tri-zone thresholds: use 75th percentile for SensJudge when median is 0
+    # (median = 0 means >50% of items have constant judge verdicts, making the
+    #  "artifact" zone unreachable; 75th pct gives a non-trivial boundary)
     eas_thresh = float(inst_df["eas"].median())
-    sj_thresh  = float(inst_df["sens_judge"].median())
+    sj_median  = float(inst_df["sens_judge"].median())
+    sj_thresh  = float(inst_df["sens_judge"].quantile(0.75)) if sj_median == 0.0 else sj_median
     print(f"\nTri-zone thresholds — EAS median: {eas_thresh:.4f}  "
-          f"SensJudge median: {sj_thresh:.4f}")
+          f"SensJudge threshold: {sj_thresh:.4f}  "
+          f"(SensJudge median={sj_median:.4f})")
 
     inst_df["trizone"] = inst_df.apply(
         lambda r: classify_trizone(r["eas"], r["sens_judge"], eas_thresh, sj_thresh),
@@ -229,12 +244,12 @@ def main() -> None:
     print(f"Saved instance metrics → {args.out_instance}")
 
     # Quick summary
-    print("\n=== Tri-zone counts by (dataset, model) ===")
+    print("\nTRI-ZONE COUNTS BY (DATASET, MODEL)")
     summary = (inst_df.groupby(["dataset", "model_name", "trizone"])
                .size().unstack(fill_value=0))
     print(summary.to_string())
 
-    print("\n=== Mean EAS by dataset ===")
+    print("\nMEAN EAS BY DATASET")
     print(inst_df.groupby("dataset")[["sens_heuristic", "sens_judge", "eas"]].mean().round(4).to_string())
 
     # Dataset-level aggregation
@@ -257,11 +272,22 @@ def main() -> None:
            )
            .reset_index())
 
+    # Bootstrap 95% CI for EAS, SensHeuristic, SensJudge
+    ci_rows: List[Dict[str, Any]] = []
+    for (ds, mn, tt), grp in inst_df.groupby(["dataset", "model_name", "task_type"]):
+        row: Dict[str, Any] = {"dataset": ds, "model_name": mn, "task_type": tt}
+        for col, key in [("eas", "eas"), ("sens_heuristic", "sh"), ("sens_judge", "sj")]:
+            lo, hi = bootstrap_ci(grp[col].values)
+            row[f"{key}_ci_lo"] = lo
+            row[f"{key}_ci_hi"] = hi
+        ci_rows.append(row)
+    agg = agg.merge(pd.DataFrame(ci_rows), on=["dataset", "model_name", "task_type"])
+
     agg.to_csv(args.out_dataset, index=False)
     print(f"\nSaved dataset metrics → {args.out_dataset}")
 
     # Structural ablation summary
-    print("\n=== Structural Ablation: Factor Main Effects ===")
+    print("\nSTRUCTURAL ABLATION: FACTOR MAIN EFFECTS")
     print(f"{'Model':<35} {'Factor':<8} {'ΔHeuristic':>12} {'ΔJudge':>10} {'Δ(H-J)':>10}")
     for model in sorted(inst_df["model_name"].unique()):
         mdf = inst_df[inst_df["model_name"] == model]
