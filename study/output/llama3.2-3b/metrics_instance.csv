@@ -1,0 +1,31 @@
+id,dataset,model_name,task_type,gold_answer,n_templates,sens_heuristic,sens_judge,eas,mean_heuristic,mean_judge,stab_sem,effect_role_heuristic,effect_fmt_heuristic,effect_prefix_heuristic,effect_role_judge,effect_fmt_judge,effect_prefix_judge,trizone
+arc_1116,arc_challenge,llama3.2:3b,mcq,D,8,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_178,arc_challenge,llama3.2:3b,mcq,B,8,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_209,arc_challenge,llama3.2:3b,mcq,C,8,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_228,arc_challenge,llama3.2:3b,mcq,B,8,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_285,arc_challenge,llama3.2:3b,mcq,C,8,0.4841229182759271,0.33071891388307384,0.1534040043928533,0.625,0.125,,-0.25,0.75,-0.25,-0.25,-0.25,-0.25,stable
+arc_457,arc_challenge,llama3.2:3b,mcq,C,8,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_501,arc_challenge,llama3.2:3b,mcq,A,8,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_51,arc_challenge,llama3.2:3b,mcq,C,8,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_563,arc_challenge,llama3.2:3b,mcq,A,8,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_864,arc_challenge,llama3.2:3b,mcq,D,8,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1003,boolq,llama3.2:3b,boolean,yes,8,0.4841229182759271,0.0,0.4841229182759271,0.625,0.0,,-0.25,0.75,-0.25,0.0,0.0,0.0,stable
+boolq_102,boolq,llama3.2:3b,boolean,yes,8,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1126,boolq,llama3.2:3b,boolean,no,8,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2619,boolq,llama3.2:3b,boolean,yes,8,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_3016,boolq,llama3.2:3b,boolean,yes,8,0.4330127018922193,0.4841229182759271,0.05111021638370783,0.75,0.375,,0.0,0.5,0.5,-0.25,-0.75,0.25,stable
+boolq_3037,boolq,llama3.2:3b,boolean,yes,8,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_419,boolq,llama3.2:3b,boolean,yes,8,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_456,boolq,llama3.2:3b,boolean,no,8,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_571,boolq,llama3.2:3b,boolean,no,8,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_914,boolq,llama3.2:3b,boolean,yes,8,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_10476,squad,llama3.2:3b,open_ended,at larger distances.,8,0.08645052112070127,0.0,0.08645052112070127,0.14732142857142858,0.0,,0.0625,0.08035714285714285,-0.0625,0.0,0.0,0.0,stable
+squad_1424,squad,llama3.2:3b,open_ended,X-ray image,8,0.3367876570272817,0.0,0.3367876570272817,0.8055555555555556,0.0,,0.0,0.38888888888888884,0.38888888888888884,0.0,0.0,0.0,stable
+squad_1679,squad,llama3.2:3b,open_ended,more than 70,8,0.13323013000257153,0.0,0.13323013000257153,0.41294466403162056,0.0,,0.0,0.26501976284584977,-0.019565217391304346,0.0,0.0,0.0,stable
+squad_1824,squad,llama3.2:3b,open_ended,"$1,000,000",8,0.0861800234861103,0.0,0.0861800234861103,0.10448232323232323,0.0,,-0.05555555555555554,-0.09785353535353536,-0.02714646464646464,0.0,0.0,0.0,stable
+squad_2286,squad,llama3.2:3b,open_ended,25 May 1521,8,0.3272566171846251,0.0,0.3272566171846251,0.5826923076923076,0.0,,-0.1346153846153847,0.5653846153846154,0.13461538461538458,0.0,0.0,0.0,stable
+squad_3657,squad,llama3.2:3b,open_ended,water,8,0.21650635094610965,0.0,0.21650635094610965,0.625,0.0,,0.0,-0.25,0.25,0.0,0.0,0.0,stable
+squad_4012,squad,llama3.2:3b,open_ended,Surveyor 3,8,0.3630921887069453,0.0,0.3630921887069453,0.71875,0.0,,-0.1875,0.5625,0.1875,0.0,0.0,0.0,stable
+squad_409,squad,llama3.2:3b,open_ended,white,8,0.06665046965774987,0.0,0.06665046965774987,0.199120082815735,0.0,,-0.031521739130434795,-0.10538302277432712,-0.0017598343685299722,0.0,0.0,0.0,stable
+squad_4506,squad,llama3.2:3b,open_ended,tentilla,8,0.1477680224299469,0.0,0.1477680224299469,0.25621345029239767,0.0,,-0.012426900584795342,0.19868421052631577,0.19868421052631577,0.0,0.0,0.0,stable
+squad_8935,squad,llama3.2:3b,open_ended,glucose monomers in the chloroplast can be linked together,8,0.12823720613540737,0.0,0.12823720613540737,0.7217261904761905,0.0,,-0.21011904761904754,0.07321428571428579,-0.02083333333333348,0.0,0.0,0.0,stable

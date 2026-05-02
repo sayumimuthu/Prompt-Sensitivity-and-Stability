@@ -1,0 +1,62 @@
+WARNING: myenv not found at /opt/anaconda3/envs/myenv/bin/python — using system python (packages may be missing)
+ Model  : llama3.2:3b
+ Backend: ollama
+ N items: 10 per dataset  (limit=0)
+ Output : study/output/llama3.2-3b
+[1/4] Prompts already exist at study/output/prompts.jsonl — skipping.
+
+[2/4] Running inference...
+Inference: backend=ollama  model=llama3.2:3b  device=n/a  n=240
+  50/240 done  (errors so far: 0)
+  100/240 done  (errors so far: 0)
+  150/240 done  (errors so far: 0)
+  200/240 done  (errors so far: 0)
+  240/240 done  (errors so far: 0)
+Wrote 240 rows to study/output/llama3.2-3b/responses.jsonl  (errors: 0)
+
+[3/4] Running LLM-as-Judge...
+LLM-as-Judge: backend=ollama  model=llama3.2:1b  device=n/a  n=240
+  50/240 judged  |  accuracy so far: 2.0%  (errors: 0)
+  100/240 judged  |  accuracy so far: 1.0%  (errors: 0)
+  150/240 judged  |  accuracy so far: 2.7%  (errors: 0)
+  200/240 judged  |  accuracy so far: 2.0%  (errors: 0)
+  240/240 judged  |  accuracy so far: 1.7%  (errors: 0)
+Wrote 240 rows to study/output/llama3.2-3b/judged.jsonl
+Overall judge accuracy: 4/240 = 1.7%
+
+[4/4] Computing metrics...
+  Loaded 240 rows from study/output/llama3.2-3b/judged.jsonl
+sentence-transformers not installed — skipping StabSem. Install with: pip install sentence-transformers
+
+Tri-zone thresholds — EAS median: 0.0000  SensJudge median: 0.0000
+Saved instance metrics → study/output/llama3.2-3b/metrics_instance.csv
+
+=== Tri-zone counts by (dataset, model) ===
+trizone                    stable
+dataset       model_name         
+arc_challenge llama3.2:3b      10
+boolq         llama3.2:3b      10
+squad         llama3.2:3b      10
+
+=== Mean EAS by dataset ===
+               sens_heuristic  sens_judge     eas
+dataset                                          
+arc_challenge          0.0484      0.0331  0.0153
+boolq                  0.0917      0.0484  0.0535
+squad                  0.1892      0.0000  0.1892
+
+Saved dataset metrics → study/output/llama3.2-3b/metrics_dataset.csv
+
+=== Structural Ablation: Factor Main Effects ===
+Model                               Factor     ΔHeuristic     ΔJudge     Δ(H-J)
+  llama3.2:3b                       role          -0.0356    -0.0167    -0.0190
+  llama3.2:3b                       fmt           +0.1227    -0.0333    +0.1560
+  llama3.2:3b                       prefix        +0.0343    +0.0000    +0.0343
+Generating figures...
+  Saved study/output/llama3.2-3b/figures/fig1_trizone.png
+  Saved study/output/llama3.2-3b/figures/fig2_scatter.png
+  Saved study/output/llama3.2-3b/figures/fig3_ablation.png
+  Saved study/output/llama3.2-3b/figures/fig4_eas_by_task.png
+Done.
+
+Done. Results in study/output/llama3.2-3b/
