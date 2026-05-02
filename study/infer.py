@@ -108,13 +108,14 @@ def infer_hf_local(prompt: str, model: str, temperature: float,
     if cache_key not in _HF_LOCAL_CACHE:
         print(f"  [hf_local] Loading {model} on {device} ...")
         dtype = torch.float16 if device != "cpu" else torch.float32
-        tokenizer = AutoTokenizer.from_pretrained(model, use_fast=True)
+        hf_token = os.getenv("HF_TOKEN") or os.getenv("HUGGING_FACE_HUB_TOKEN")
+        tokenizer = AutoTokenizer.from_pretrained(model, use_fast=True, token=hf_token)
 
         try:
-            mdl = AutoModelForSeq2SeqLM.from_pretrained(model, torch_dtype=dtype)
+            mdl = AutoModelForSeq2SeqLM.from_pretrained(model, torch_dtype=dtype, token=hf_token)
             kind = "seq2seq"
         except Exception:
-            mdl = AutoModelForCausalLM.from_pretrained(model, torch_dtype=dtype)
+            mdl = AutoModelForCausalLM.from_pretrained(model, torch_dtype=dtype, token=hf_token)
             kind = "causal"
 
         mdl.to(device).eval()
