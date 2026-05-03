@@ -1,0 +1,8 @@
+Generating figures...
+  Saved study/output/combined_final/figures/fig1_trizone.png
+  Saved study/output/combined_final/figures/fig2_scatter.png
+  Saved study/output/combined_final/figures/fig3_ablation.png
+  Saved study/output/combined_final/figures/fig4_eas_by_task.png
+  Saved study/output/combined_final/figures/fig5_eas_ci.png
+  Saved study/output/combined_final/figures/fig6_signed_eas.png
+Done.
