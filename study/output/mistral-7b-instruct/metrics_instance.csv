@@ -1,0 +1,601 @@
+id,dataset,model_name,task_type,gold_answer,n_templates,sens_heuristic,sens_judge,eas,signed_eas,mean_heuristic,mean_judge,stab_sem,effect_role_heuristic,effect_fmt_heuristic,effect_prefix_heuristic,effect_role_judge,effect_fmt_judge,effect_prefix_judge,trizone
+arc_1,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1000,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.125,,0.0,0.0,0.0,0.25,0.25,-0.25,stable
+arc_1010,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1022,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1025,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1034,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1039,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1043,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1052,arc_challenge,mistral:instruct,mcq,D,8,0.5,0.0,0.5,0.5,0.5,0.0,,0.0,-1.0,0.0,0.0,0.0,0.0,stable
+arc_1059,arc_challenge,mistral:instruct,mcq,B,8,0.5,0.4330127018922193,0.0669872981077807,0.0669872981077807,0.5,0.25,,0.0,-1.0,0.0,0.0,-0.5,0.5,stable
+arc_1080,arc_challenge,mistral:instruct,mcq,A,8,0.5,0.33071891388307384,0.16928108611692616,0.16928108611692616,0.5,0.125,,0.0,1.0,0.0,-0.25,-0.25,0.25,stable
+arc_1083,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1086,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1090,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1093,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1098,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1099,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_110,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.4330127018922193,0.4330127018922193,-0.4330127018922193,1.0,0.25,,0.0,0.0,0.0,0.0,0.5,-0.5,stable
+arc_1103,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1104,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1116,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1125,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1127,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1130,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1133,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1134,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_114,arc_challenge,mistral:instruct,mcq,B,8,0.33071891388307384,0.33071891388307384,0.0,0.0,0.875,0.875,,0.25,-0.25,0.25,0.25,-0.25,0.25,stable
+arc_1140,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1149,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1161,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_1169,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_118,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_120,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.125,,0.0,0.0,0.0,-0.25,0.25,-0.25,stable
+arc_124,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_13,arc_challenge,mistral:instruct,mcq,C,8,0.33071891388307384,0.33071891388307384,0.0,0.0,0.125,0.125,,-0.25,0.25,-0.25,-0.25,0.25,-0.25,stable
+arc_130,arc_challenge,mistral:instruct,mcq,B,8,0.4330127018922193,0.0,0.4330127018922193,0.4330127018922193,0.25,0.0,,0.0,-0.5,0.5,0.0,0.0,0.0,stable
+arc_131,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_135,arc_challenge,mistral:instruct,mcq,2,8,0.5,0.0,0.5,0.5,0.5,1.0,,0.0,-1.0,0.0,0.0,0.0,0.0,stable
+arc_138,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_14,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_141,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_142,arc_challenge,mistral:instruct,mcq,A,8,0.4841229182759271,0.0,0.4841229182759271,0.4841229182759271,0.625,0.0,,0.25,0.75,-0.25,0.0,0.0,0.0,stable
+arc_145,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.5,0.5,-0.5,1.0,0.5,,0.0,0.0,0.0,0.0,-1.0,0.0,stable
+arc_146,arc_challenge,mistral:instruct,mcq,B,8,0.4330127018922193,0.33071891388307384,0.10229378800914546,0.10229378800914546,0.25,0.125,,-0.5,0.0,0.5,-0.25,-0.25,0.25,stable
+arc_154,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.875,,0.0,0.0,0.0,0.25,0.25,0.25,stable
+arc_161,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.125,,0.0,0.0,0.0,-0.25,-0.25,0.25,stable
+arc_163,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_175,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.4330127018922193,0.4330127018922193,-0.4330127018922193,1.0,0.25,,0.0,0.0,0.0,0.0,0.5,-0.5,stable
+arc_178,arc_challenge,mistral:instruct,mcq,B,8,0.4330127018922193,0.4330127018922193,0.0,0.0,0.75,0.75,,0.0,-0.5,0.5,0.0,-0.5,0.5,stable
+arc_186,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_189,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,0.0,0.125,,0.0,0.0,0.0,-0.25,-0.25,0.25,stable
+arc_191,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.875,,0.0,0.0,0.0,-0.25,0.25,0.25,stable
+arc_193,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_198,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_200,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_201,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_206,arc_challenge,mistral:instruct,mcq,B,8,0.33071891388307384,0.33071891388307384,0.0,0.0,0.125,0.125,,-0.25,-0.25,0.25,-0.25,-0.25,0.25,stable
+arc_209,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_217,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.4330127018922193,0.4330127018922193,-0.4330127018922193,1.0,0.75,,0.0,0.0,0.0,0.0,0.5,-0.5,stable
+arc_223,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_224,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_228,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_229,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_23,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_234,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,0.0,0.125,,0.0,0.0,0.0,0.25,-0.25,0.25,stable
+arc_247,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_255,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.5,0.5,-0.5,1.0,0.5,,0.0,0.0,0.0,0.0,1.0,0.0,stable
+arc_257,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_262,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.5,0.5,-0.5,1.0,0.5,,0.0,0.0,0.0,0.0,1.0,0.0,stable
+arc_270,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.4841229182759271,0.4841229182759271,-0.4841229182759271,1.0,0.625,,0.0,0.0,0.0,-0.25,0.75,-0.25,stable
+arc_283,arc_challenge,mistral:instruct,mcq,B,8,0.33071891388307384,0.33071891388307384,0.0,0.0,0.875,0.875,,0.25,0.25,0.25,0.25,0.25,0.25,stable
+arc_285,arc_challenge,mistral:instruct,mcq,C,8,0.4330127018922193,0.0,0.4330127018922193,0.4330127018922193,0.25,0.0,,0.0,0.5,-0.5,0.0,0.0,0.0,stable
+arc_287,arc_challenge,mistral:instruct,mcq,C,8,0.4330127018922193,0.4330127018922193,0.0,0.0,0.75,0.25,,0.0,0.5,0.5,0.0,-0.5,0.5,stable
+arc_292,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_313,arc_challenge,mistral:instruct,mcq,3,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_318,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_323,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_326,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_327,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,0.0,0.125,,0.0,0.0,0.0,0.25,-0.25,-0.25,stable
+arc_330,arc_challenge,mistral:instruct,mcq,D,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,-1.0,0.0,0.0,1.0,0.0,stable
+arc_333,arc_challenge,mistral:instruct,mcq,B,8,0.33071891388307384,0.33071891388307384,0.0,0.0,0.125,0.125,,0.25,-0.25,0.25,0.25,-0.25,0.25,stable
+arc_334,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.5,0.5,-0.5,0.0,0.5,,0.0,0.0,0.0,0.0,-1.0,0.0,stable
+arc_338,arc_challenge,mistral:instruct,mcq,A,8,0.5,0.4841229182759271,0.015877081724072872,0.015877081724072872,0.5,0.625,,0.0,1.0,0.0,-0.25,0.75,0.25,stable
+arc_350,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,0.0,0.125,,0.0,0.0,0.0,0.25,0.25,0.25,stable
+arc_365,arc_challenge,mistral:instruct,mcq,B,8,0.33071891388307384,0.0,0.33071891388307384,0.33071891388307384,0.125,0.0,,0.25,-0.25,0.25,0.0,0.0,0.0,stable
+arc_375,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_389,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_39,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_392,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_393,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.5,0.5,-0.5,0.0,0.5,,0.0,0.0,0.0,0.0,-1.0,0.0,stable
+arc_407,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_411,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_429,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_43,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_432,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_433,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_435,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_438,arc_challenge,mistral:instruct,mcq,A,8,0.4841229182759271,0.0,0.4841229182759271,0.4841229182759271,0.375,0.0,,0.25,0.25,-0.75,0.0,0.0,0.0,stable
+arc_440,arc_challenge,mistral:instruct,mcq,D,8,0.33071891388307384,0.33071891388307384,0.0,0.0,0.875,0.875,,-0.25,-0.25,-0.25,-0.25,-0.25,-0.25,stable
+arc_447,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_449,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_451,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_457,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_460,arc_challenge,mistral:instruct,mcq,A,8,0.33071891388307384,0.4330127018922193,0.10229378800914546,-0.10229378800914546,0.875,0.75,,0.25,0.25,0.25,0.0,0.5,0.5,stable
+arc_466,arc_challenge,mistral:instruct,mcq,B,8,0.33071891388307384,0.33071891388307384,0.0,0.0,0.875,0.875,,-0.25,-0.25,0.25,-0.25,-0.25,0.25,stable
+arc_468,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_469,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_471,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_476,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_487,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_490,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_493,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_497,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_501,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.125,,0.0,0.0,0.0,0.25,0.25,-0.25,stable
+arc_505,arc_challenge,mistral:instruct,mcq,B,8,0.5,0.0,0.5,0.5,0.5,1.0,,0.0,-1.0,0.0,0.0,0.0,0.0,stable
+arc_507,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_509,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_51,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_511,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_514,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_538,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_539,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_54,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_541,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_542,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_546,arc_challenge,mistral:instruct,mcq,1,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,-1.0,0.0,0.0,-1.0,0.0,stable
+arc_548,arc_challenge,mistral:instruct,mcq,B,8,0.4330127018922193,0.0,0.4330127018922193,0.4330127018922193,0.25,0.0,,0.0,0.5,0.5,0.0,0.0,0.0,stable
+arc_552,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_563,arc_challenge,mistral:instruct,mcq,A,8,0.4841229182759271,0.33071891388307384,0.1534040043928533,0.1534040043928533,0.625,0.125,,-0.25,0.75,0.25,-0.25,-0.25,-0.25,stable
+arc_569,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_570,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,0.0,0.125,,0.0,0.0,0.0,0.25,-0.25,-0.25,stable
+arc_592,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.5,0.5,-0.5,1.0,0.5,,0.0,0.0,0.0,0.0,1.0,0.0,stable
+arc_6,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_600,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_601,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.4330127018922193,0.4330127018922193,-0.4330127018922193,1.0,0.25,,0.0,0.0,0.0,-0.5,-0.5,0.0,stable
+arc_61,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_611,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_629,arc_challenge,mistral:instruct,mcq,B,8,0.33071891388307384,0.5,0.16928108611692616,-0.16928108611692616,0.125,0.5,,-0.25,-0.25,-0.25,0.0,0.0,0.0,stable
+arc_638,arc_challenge,mistral:instruct,mcq,C,8,0.4330127018922193,0.0,0.4330127018922193,0.4330127018922193,0.25,0.0,,0.0,-0.5,0.5,0.0,0.0,0.0,stable
+arc_64,arc_challenge,mistral:instruct,mcq,D,8,0.4841229182759271,0.4330127018922193,0.05111021638370783,0.05111021638370783,0.375,0.25,,0.25,-0.75,-0.25,0.0,-0.5,0.0,stable
+arc_644,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_646,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_65,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_663,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_664,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_676,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_689,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_692,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_694,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_696,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.4330127018922193,0.4330127018922193,-0.4330127018922193,1.0,0.75,,0.0,0.0,0.0,0.0,-0.5,-0.5,stable
+arc_704,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_725,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_727,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_735,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_740,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_741,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_743,arc_challenge,mistral:instruct,mcq,D,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,-1.0,0.0,0.0,-1.0,0.0,stable
+arc_747,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.5,0.5,-0.5,0.0,0.5,,0.0,0.0,0.0,0.0,-1.0,0.0,stable
+arc_758,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_764,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_765,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_775,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_777,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_778,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,0.0,0.125,,0.0,0.0,0.0,0.25,-0.25,0.25,stable
+arc_781,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_788,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_810,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.4330127018922193,0.4330127018922193,-0.4330127018922193,0.0,0.25,,0.0,0.0,0.0,0.0,-0.5,-0.5,stable
+arc_817,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_821,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_824,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_833,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.4330127018922193,0.4330127018922193,-0.4330127018922193,1.0,0.25,,0.0,0.0,0.0,0.0,-0.5,-0.5,stable
+arc_841,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_859,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_864,arc_challenge,mistral:instruct,mcq,D,8,0.4330127018922193,0.0,0.4330127018922193,0.4330127018922193,0.25,0.0,,0.0,-0.5,-0.5,0.0,0.0,0.0,stable
+arc_865,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_866,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_867,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_877,arc_challenge,mistral:instruct,mcq,A,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,1.0,0.0,0.0,1.0,0.0,stable
+arc_88,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_882,arc_challenge,mistral:instruct,mcq,D,8,0.4841229182759271,0.0,0.4841229182759271,0.4841229182759271,0.375,0.0,,-0.25,-0.75,-0.25,0.0,0.0,0.0,stable
+arc_890,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_897,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_907,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_918,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_919,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_924,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_928,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_929,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_93,arc_challenge,mistral:instruct,mcq,A,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_939,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_940,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_946,arc_challenge,mistral:instruct,mcq,C,8,0.33071891388307384,0.33071891388307384,0.0,0.0,0.125,0.125,,0.25,-0.25,0.25,0.25,-0.25,0.25,stable
+arc_947,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_956,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_958,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_96,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_968,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_973,arc_challenge,mistral:instruct,mcq,D,8,0.0,0.5,0.5,-0.5,1.0,0.5,,0.0,0.0,0.0,0.0,-1.0,0.0,stable
+arc_994,arc_challenge,mistral:instruct,mcq,C,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+arc_995,arc_challenge,mistral:instruct,mcq,B,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1002,boolq,mistral:instruct,boolean,no,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,-1.0,0.0,0.0,-1.0,0.0,stable
+boolq_1003,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1010,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_102,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1029,boolq,mistral:instruct,boolean,no,8,0.4841229182759271,0.4841229182759271,0.0,0.0,0.375,0.375,,0.25,-0.75,-0.25,0.25,-0.75,-0.25,stable
+boolq_1076,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1078,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_108,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1083,boolq,mistral:instruct,boolean,yes,8,0.5,0.0,0.5,0.5,0.5,1.0,,0.0,1.0,0.0,0.0,0.0,0.0,stable
+boolq_1084,boolq,mistral:instruct,boolean,yes,8,0.0,0.4330127018922193,0.4330127018922193,-0.4330127018922193,1.0,0.75,,0.0,0.0,0.0,0.0,0.5,0.5,stable
+boolq_1092,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1093,boolq,mistral:instruct,boolean,no,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,-1.0,0.0,0.0,-1.0,0.0,stable
+boolq_1096,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1105,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1126,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1138,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1139,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1185,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1200,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1202,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_122,boolq,mistral:instruct,boolean,no,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.875,,0.0,0.0,0.0,0.25,0.25,-0.25,stable
+boolq_1222,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1288,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1292,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_13,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_130,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_131,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1327,boolq,mistral:instruct,boolean,yes,8,0.0,0.5,0.5,-0.5,0.0,0.5,,0.0,0.0,0.0,0.0,-1.0,0.0,stable
+boolq_1328,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1378,boolq,mistral:instruct,boolean,yes,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.875,,0.0,0.0,0.0,0.25,0.25,-0.25,stable
+boolq_1393,boolq,mistral:instruct,boolean,no,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.875,,0.0,0.0,0.0,0.25,0.25,-0.25,stable
+boolq_1408,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1455,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1470,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1481,boolq,mistral:instruct,boolean,yes,8,0.4330127018922193,0.4330127018922193,0.0,0.0,0.75,0.75,,0.0,0.5,0.5,0.0,0.5,0.5,stable
+boolq_1482,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1494,boolq,mistral:instruct,boolean,no,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.875,,0.0,0.0,0.0,0.25,0.25,-0.25,stable
+boolq_1516,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1531,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1550,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1554,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1556,boolq,mistral:instruct,boolean,no,8,0.4330127018922193,0.4330127018922193,0.0,0.0,0.75,0.75,,-0.5,0.5,0.0,-0.5,0.5,0.0,stable
+boolq_1563,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1576,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1620,boolq,mistral:instruct,boolean,no,8,0.5,0.4841229182759271,0.015877081724072872,0.015877081724072872,0.5,0.375,,0.0,1.0,0.0,0.25,0.75,0.25,stable
+boolq_1635,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1643,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1718,boolq,mistral:instruct,boolean,no,8,0.5,0.4841229182759271,0.015877081724072872,0.015877081724072872,0.5,0.375,,0.0,-1.0,0.0,0.25,-0.75,0.25,stable
+boolq_1728,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1729,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1731,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1754,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_177,boolq,mistral:instruct,boolean,yes,8,0.0,0.4841229182759271,0.4841229182759271,-0.4841229182759271,1.0,0.625,,0.0,0.0,0.0,-0.25,0.75,-0.25,stable
+boolq_1780,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1839,boolq,mistral:instruct,boolean,no,8,0.0,0.5,0.5,-0.5,1.0,0.5,,0.0,0.0,0.0,0.0,-1.0,0.0,stable
+boolq_1857,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1858,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_187,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1879,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_1881,boolq,mistral:instruct,boolean,no,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.875,,0.0,0.0,0.0,0.25,0.25,-0.25,stable
+boolq_1893,boolq,mistral:instruct,boolean,no,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,-1.0,0.0,0.0,-1.0,0.0,stable
+boolq_1917,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_192,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2001,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2021,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2044,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2050,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2069,boolq,mistral:instruct,boolean,no,8,0.0,0.5,0.5,-0.5,1.0,0.5,,0.0,0.0,0.0,0.0,1.0,0.0,stable
+boolq_2079,boolq,mistral:instruct,boolean,yes,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,1.0,0.0,0.0,1.0,0.0,stable
+boolq_2087,boolq,mistral:instruct,boolean,no,8,0.0,0.4330127018922193,0.4330127018922193,-0.4330127018922193,1.0,0.75,,0.0,0.0,0.0,0.0,-0.5,-0.5,stable
+boolq_2167,boolq,mistral:instruct,boolean,no,8,0.4330127018922193,0.4330127018922193,0.0,0.0,0.25,0.25,,0.0,-0.5,-0.5,0.0,-0.5,-0.5,stable
+boolq_2172,boolq,mistral:instruct,boolean,yes,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.875,,0.0,0.0,0.0,0.25,-0.25,-0.25,stable
+boolq_2187,boolq,mistral:instruct,boolean,yes,8,0.4330127018922193,0.4330127018922193,0.0,0.0,0.75,0.75,,0.0,0.5,0.5,0.0,0.5,0.5,stable
+boolq_2196,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2199,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2207,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2209,boolq,mistral:instruct,boolean,yes,8,0.0,0.4330127018922193,0.4330127018922193,-0.4330127018922193,1.0,0.75,,0.0,0.0,0.0,-0.5,0.5,0.0,stable
+boolq_2232,boolq,mistral:instruct,boolean,no,8,0.0,0.4330127018922193,0.4330127018922193,-0.4330127018922193,1.0,0.75,,0.0,0.0,0.0,0.0,-0.5,0.5,stable
+boolq_2233,boolq,mistral:instruct,boolean,no,8,0.33071891388307384,0.33071891388307384,0.0,0.0,0.125,0.125,,0.25,-0.25,-0.25,0.25,-0.25,-0.25,stable
+boolq_2261,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2266,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2281,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_229,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2298,boolq,mistral:instruct,boolean,yes,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.875,,0.0,0.0,0.0,-0.25,0.25,0.25,stable
+boolq_2299,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2323,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2364,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2390,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2394,boolq,mistral:instruct,boolean,yes,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,1.0,0.0,0.0,1.0,0.0,stable
+boolq_2413,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2418,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2440,boolq,mistral:instruct,boolean,no,8,0.0,0.5,0.5,-0.5,1.0,0.5,,0.0,0.0,0.0,-1.0,0.0,0.0,stable
+boolq_2442,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2453,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2465,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2472,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2494,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2495,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2533,boolq,mistral:instruct,boolean,no,8,0.5,0.0,0.5,0.5,0.5,0.0,,0.0,-1.0,0.0,0.0,0.0,0.0,stable
+boolq_2561,boolq,mistral:instruct,boolean,no,8,0.4330127018922193,0.4330127018922193,0.0,0.0,0.75,0.75,,-0.5,-0.5,0.0,-0.5,-0.5,0.0,stable
+boolq_2570,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2574,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_26,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_260,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2600,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2603,boolq,mistral:instruct,boolean,yes,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,1.0,0.0,0.0,1.0,0.0,stable
+boolq_2617,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2619,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2621,boolq,mistral:instruct,boolean,no,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.875,,0.0,0.0,0.0,0.25,0.25,-0.25,stable
+boolq_2625,boolq,mistral:instruct,boolean,no,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,-1.0,0.0,0.0,-1.0,0.0,stable
+boolq_2633,boolq,mistral:instruct,boolean,yes,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,1.0,0.0,0.0,1.0,0.0,stable
+boolq_2654,boolq,mistral:instruct,boolean,yes,8,0.0,0.4841229182759271,0.4841229182759271,-0.4841229182759271,1.0,0.625,,0.0,0.0,0.0,-0.25,0.75,-0.25,stable
+boolq_2661,boolq,mistral:instruct,boolean,no,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,-1.0,0.0,0.0,-1.0,0.0,stable
+boolq_2684,boolq,mistral:instruct,boolean,no,8,0.4841229182759271,0.5,0.015877081724072872,-0.015877081724072872,0.625,0.5,,0.25,-0.75,0.25,0.0,-0.5,0.5,stable
+boolq_2708,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_271,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2745,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2771,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2786,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2787,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2792,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2799,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2804,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2818,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_284,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2859,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2872,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2874,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2885,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_292,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2932,boolq,mistral:instruct,boolean,no,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,-1.0,0.0,0.0,-1.0,0.0,stable
+boolq_2940,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2947,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2952,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2957,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2986,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_2988,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_3016,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_3033,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_3037,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_3051,boolq,mistral:instruct,boolean,no,8,0.4330127018922193,0.4330127018922193,0.0,0.0,0.75,0.75,,0.0,-0.5,-0.5,0.0,-0.5,-0.5,stable
+boolq_3059,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_3075,boolq,mistral:instruct,boolean,yes,8,0.4841229182759271,0.4841229182759271,0.0,0.0,0.375,0.375,,-0.25,0.75,-0.25,-0.25,0.75,-0.25,stable
+boolq_3095,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_3108,boolq,mistral:instruct,boolean,yes,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.875,,0.0,0.0,0.0,-0.25,0.25,-0.25,stable
+boolq_3120,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_3123,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_3127,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_3147,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_3148,boolq,mistral:instruct,boolean,yes,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,1.0,0.0,0.0,1.0,0.0,stable
+boolq_3166,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_3178,boolq,mistral:instruct,boolean,yes,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,1.0,0.0,0.0,1.0,0.0,stable
+boolq_3189,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_322,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_3244,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_326,boolq,mistral:instruct,boolean,no,8,0.4841229182759271,0.33071891388307384,0.1534040043928533,0.1534040043928533,0.625,0.125,,-0.25,-0.75,-0.25,-0.25,0.25,-0.25,stable
+boolq_356,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_372,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_379,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_383,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_396,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_413,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_418,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_419,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_435,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_449,boolq,mistral:instruct,boolean,no,8,0.5,0.4330127018922193,0.0669872981077807,0.0669872981077807,0.5,0.25,,0.0,-1.0,0.0,-0.5,-0.5,0.0,stable
+boolq_456,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_469,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_47,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_511,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_566,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_571,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_585,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_626,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_636,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_647,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_653,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_655,boolq,mistral:instruct,boolean,yes,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.875,,0.0,0.0,0.0,-0.25,0.25,-0.25,stable
+boolq_661,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_666,boolq,mistral:instruct,boolean,yes,8,0.0,0.33071891388307384,0.33071891388307384,-0.33071891388307384,1.0,0.875,,0.0,0.0,0.0,-0.25,0.25,-0.25,stable
+boolq_669,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_700,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_731,boolq,mistral:instruct,boolean,yes,8,0.33071891388307384,0.33071891388307384,0.0,0.0,0.125,0.125,,-0.25,0.25,-0.25,-0.25,0.25,-0.25,stable
+boolq_787,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_79,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_814,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_858,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_864,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_870,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_881,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_895,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_898,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_899,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_902,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_914,boolq,mistral:instruct,boolean,yes,8,0.4330127018922193,0.4330127018922193,0.0,0.0,0.25,0.25,,0.0,0.5,-0.5,0.0,0.5,-0.5,stable
+boolq_933,boolq,mistral:instruct,boolean,yes,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_938,boolq,mistral:instruct,boolean,yes,8,0.5,0.5,0.0,0.0,0.5,0.5,,0.0,1.0,0.0,0.0,1.0,0.0,stable
+boolq_952,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+boolq_953,boolq,mistral:instruct,boolean,no,8,0.0,0.0,0.0,0.0,1.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_10133,squad,mistral:instruct,open_ended,their Annual Conference,8,0.11249999999999999,0.0,0.11249999999999999,0.11249999999999999,0.4875,1.0,,0.0,0.22499999999999998,0.0,0.0,0.0,0.0,stable
+squad_10244,squad,mistral:instruct,open_ended,British colonists would not be safe as long as the French were present,8,0.24498963246374303,0.0,0.24498963246374303,0.24498963246374303,0.31751136678267994,1.0,,0.1158645276292335,-0.4244964177758862,-0.05560627798791351,0.0,0.0,0.0,stable
+squad_10280,squad,mistral:instruct,open_ended,"regain authority over his own people. They had been inclined to support the French, with whom they had long trading relationships",8,0.07838603609886059,0.0,0.07838603609886059,0.07838603609886059,0.5382527007527007,1.0,,0.06254436254436258,0.12585605085605078,0.029716079716079702,0.0,0.0,0.0,stable
+squad_10299,squad,mistral:instruct,open_ended,"inconclusively, with both sides withdrawing from the field",8,0.0466156183378047,0.0,0.0466156183378047,0.0466156183378047,0.2576190476190476,1.0,,-0.03523809523809526,-0.03523809523809526,0.03523809523809526,0.0,0.0,0.0,stable
+squad_1040,squad,mistral:instruct,open_ended,374,8,0.013570405534517509,0.0,0.013570405534517509,0.013570405534517509,0.12943510737628386,1.0,,0.0016339869281045694,0.026844070961718036,0.0016339869281045694,0.0,0.0,0.0,stable
+squad_10403,squad,mistral:instruct,open_ended,Newton's Third,8,0.06428906112559886,0.0,0.06428906112559886,0.06428906112559886,0.3673319327731092,1.0,,-0.020378151260504185,0.12247899159663861,0.013235294117647067,0.0,0.0,0.0,stable
+squad_10415,squad,mistral:instruct,open_ended,denoted scalar quantities,8,0.031236289216106796,0.0,0.031236289216106796,0.031236289216106796,0.2322472848788638,1.0,,0.0,0.04344193817878028,0.031746031746031744,0.0,0.0,0.0,stable
+squad_10468,squad,mistral:instruct,open_ended,20th,8,0.0,0.0,0.0,0.0,0.5454545454545454,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_10476,squad,mistral:instruct,open_ended,at larger distances.,8,0.053941476052382524,0.5,0.44605852394761747,-0.44605852394761747,0.053876236252190776,0.5,,0.0005754390115585845,-0.10775247250438155,-0.003396755625978659,0.0,-1.0,0.0,stable
+squad_10485,squad,mistral:instruct,open_ended,Vulcan,8,0.09250782576206495,0.5,0.40749217423793505,-0.40749217423793505,0.15093954248366015,0.5,,0.0069444444444444475,0.18423202614379083,0.0069444444444444475,0.0,-1.0,0.0,stable
+squad_1049,squad,mistral:instruct,open_ended,Vistula River,8,0.0,0.0,0.0,0.0,0.5,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_10501,squad,mistral:instruct,open_ended,Maxwell,8,0.07751154010087688,0.0,0.07751154010087688,0.07751154010087688,0.3687888198757764,1.0,,0.04813664596273293,0.11956521739130438,-0.0357142857142857,0.0,0.0,0.0,stable
+squad_10532,squad,mistral:instruct,open_ended,conservation of mechanical energy,8,0.0653053079152137,0.0,0.0653053079152137,0.0653053079152137,0.2623676125798367,0.0,,0.0018635297922224847,0.12914948661977527,0.01539736437868866,0.0,0.0,0.0,stable
+squad_106,squad,mistral:instruct,open_ended,Roger Goodell,8,0.0,0.0,0.0,0.0,0.3636363636363636,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_1084,squad,mistral:instruct,open_ended,meritocratic,8,0.004593318248376027,0.5,0.49540668175162395,-0.49540668175162395,0.11284722222222221,0.5,,-0.0034722222222222238,0.0034722222222222238,-0.0034722222222222238,0.0,1.0,0.0,stable
+squad_1133,squad,mistral:instruct,open_ended,a storm,8,0.02214584178016688,0.33071891388307384,0.30857307210290696,-0.30857307210290696,0.10075540694146833,0.875,,0.0012811724768246602,0.03378330376412218,0.013358467162814996,-0.25,0.25,0.25,stable
+squad_1139,squad,mistral:instruct,open_ended,Guy de Lusignan,8,0.0,0.0,0.0,0.0,0.4615384615384615,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_1169,squad,mistral:instruct,open_ended,1856,8,0.031746031746031744,0.0,0.031746031746031744,0.031746031746031744,0.25396825396825395,1.0,,0.0,0.06349206349206349,0.0,0.0,0.0,0.0,stable
+squad_1290,squad,mistral:instruct,open_ended,1881,8,0.0,0.0,0.0,0.0,0.2857142857142857,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_1291,squad,mistral:instruct,open_ended,a telegraph company,8,0.04923819467981936,0.0,0.04923819467981936,0.04923819467981936,0.468859649122807,1.0,,0.0,0.0956140350877192,0.01666666666666672,0.0,0.0,0.0,stable
+squad_1307,squad,mistral:instruct,open_ended,fifty thousand dollars,8,0.03968626966596886,0.4841229182759271,0.44443664860995824,-0.44443664860995824,0.015,0.625,,0.03,-0.03,0.03,0.25,0.75,-0.25,stable
+squad_1403,squad,mistral:instruct,open_ended,35,8,0.020833333333333343,0.0,0.020833333333333343,0.020833333333333343,0.14583333333333334,1.0,,0.0,0.041666666666666685,0.0,0.0,0.0,0.0,stable
+squad_1424,squad,mistral:instruct,open_ended,X-ray image,8,0.06464116676313687,0.0,0.06464116676313687,0.06464116676313687,0.20032051282051283,1.0,,0.04487179487179488,0.09294871794871795,0.0032051282051281937,0.0,0.0,0.0,stable
+squad_1489,squad,mistral:instruct,open_ended,1899,8,0.0,0.0,0.0,0.0,0.5,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_1519,squad,mistral:instruct,open_ended,sold,8,0.16131302463717404,0.0,0.16131302463717404,0.16131302463717404,0.28242349048800663,1.0,,-0.04433416046319272,0.3018196856906534,0.03899917287014065,0.0,0.0,0.0,stable
+squad_1535,squad,mistral:instruct,open_ended,VTOL aircraft,8,0.011837297296103362,0.5,0.4881627027038966,-0.4881627027038966,0.2058061821219716,0.5,,0.0,0.021136173767752703,-0.0010860484544695237,0.0,1.0,0.0,stable
+squad_1584,squad,mistral:instruct,open_ended,Belgrade,8,0.03808477348830275,0.0,0.03808477348830275,0.03808477348830275,0.25744047619047616,1.0,,0.020833333333333343,0.05654761904761901,0.020833333333333343,0.0,0.0,0.0,stable
+squad_1654,squad,mistral:instruct,open_ended,1926,8,0.0,0.0,0.0,0.0,0.2222222222222222,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_1674,squad,mistral:instruct,open_ended,several,8,0.0,0.4841229182759271,0.4841229182759271,-0.4841229182759271,0.0,0.625,,0.0,0.0,0.0,-0.75,-0.25,0.25,stable
+squad_1679,squad,mistral:instruct,open_ended,more than 70,8,0.1635883227296708,0.4841229182759271,0.3205345955462563,-0.3205345955462563,0.2901688236669463,0.625,,0.016459172867182903,0.3262557592595139,0.012629385633140366,0.25,0.75,0.25,stable
+squad_1743,squad,mistral:instruct,open_ended,computational power,8,0.051020014203831315,0.33071891388307384,0.27969889967924255,-0.27969889967924255,0.049121752837071334,0.125,,0.01505311116299344,-0.09824350567414267,0.011727168812660844,-0.25,-0.25,-0.25,stable
+squad_1796,squad,mistral:instruct,open_ended,time and space hierarchy theorems,8,0.158150680406176,0.0,0.158150680406176,0.158150680406176,0.4438961038961039,1.0,,0.0763636363636363,0.2550649350649351,0.0763636363636363,0.0,0.0,0.0,stable
+squad_1824,squad,mistral:instruct,open_ended,"$1,000,000",8,0.0055535275389457725,0.0,0.0055535275389457725,0.0055535275389457725,0.07480932915715524,1.0,,0.0026915113871635588,-5.574136008917874e-05,-0.0023252110208631938,0.0,0.0,0.0,stable
+squad_1827,squad,mistral:instruct,open_ended,graph isomorphism problem,8,0.07809017042610077,0.0,0.07809017042610077,0.07809017042610077,0.3918930075059728,1.0,,0.017991155186277086,-0.037374531758357143,0.07726083287700747,0.0,0.0,0.0,stable
+squad_1832,squad,mistral:instruct,open_ended,Laszlo Babai and Eugene Luks,8,0.03863757148975661,0.0,0.03863757148975661,0.03863757148975661,0.3068122893440498,1.0,,-0.005639097744360944,0.0760305937256936,0.005639097744360944,0.0,0.0,0.0,stable
+squad_1876,squad,mistral:instruct,open_ended,21,8,0.00880223487774412,0.0,0.00880223487774412,0.00880223487774412,0.19318181818181818,1.0,,0.004545454545454547,0.013636363636363641,-0.004545454545454519,0.0,0.0,0.0,stable
+squad_188,squad,mistral:instruct,open_ended,number one,8,0.09202639910095305,0.5,0.40797360089904694,-0.40797360089904694,0.3088235294117647,0.5,,-0.01764705882352935,0.18235294117647063,0.0,0.0,1.0,0.0,stable
+squad_1982,squad,mistral:instruct,open_ended,Japan,8,0.06435549211639348,0.0,0.06435549211639348,0.06435549211639348,0.15042226292226293,1.0,,0.0586792836792837,0.0324888074888075,-0.04571632071632076,0.0,0.0,0.0,stable
+squad_2045,squad,mistral:instruct,open_ended,2012,8,0.04273504273504275,0.0,0.04273504273504275,0.04273504273504275,0.26495726495726496,1.0,,0.0,0.0854700854700855,0.0,0.0,0.0,0.0,stable
+squad_2060,squad,mistral:instruct,open_ended,universities and/or TAFE colleges,8,0.12694705904954742,0.0,0.12694705904954742,0.12694705904954742,0.24889305006539394,1.0,,0.06369397577054037,0.2365792249466115,0.036723942474202936,0.0,0.0,0.0,stable
+squad_2103,squad,mistral:instruct,open_ended,Welsh,8,0.03420215134934691,0.5,0.4657978486506531,-0.4657978486506531,0.09119933182324899,0.5,,-0.0002197612299913998,0.047377246717647675,0.013069846338141025,-0.5,0.0,-0.5,stable
+squad_2266,squad,mistral:instruct,open_ended,3 January 1521,8,0.0,0.0,0.0,0.0,0.5,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_2286,squad,mistral:instruct,open_ended,25 May 1521,8,0.0,0.0,0.0,0.0,0.4615384615384615,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_2287,squad,mistral:instruct,open_ended,Emperor,8,0.0,0.0,0.0,0.0,0.14285714285714288,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_2340,squad,mistral:instruct,open_ended,on three grounds,8,0.07350769147054695,0.4841229182759271,0.4106152268053802,-0.4106152268053802,0.1264935988620199,0.625,,0.00035561877667139585,0.14701280227596014,-0.00035561877667139585,0.25,0.75,-0.25,stable
+squad_2504,squad,mistral:instruct,open_ended,as a scourge,8,0.04235381626017167,0.0,0.04235381626017167,0.04235381626017167,0.13701762966468847,1.0,,0.008918023623905952,0.06392129921541688,-0.018746033451915778,0.0,0.0,0.0,stable
+squad_2547,squad,mistral:instruct,open_ended,the Jews,8,0.087338779677506,0.0,0.087338779677506,0.087338779677506,0.2792737154150197,1.0,,-0.020998023715415037,0.16872529644268772,-0.01704545454545453,0.0,0.0,0.0,stable
+squad_2591,squad,mistral:instruct,open_ended,Eisleben,8,0.04034357652299392,0.4841229182759271,0.4437793417529332,-0.4437793417529332,0.21875,0.625,,0.020833333333333343,0.0625,0.020833333333333343,0.25,0.75,0.25,stable
+squad_2615,squad,mistral:instruct,open_ended,frail Catholic saints,8,0.10331530563647358,0.0,0.10331530563647358,0.10331530563647358,0.23515670126143584,1.0,,-0.009633121541299472,0.20195550504015355,0.023980323836851808,0.0,0.0,0.0,stable
+squad_2621,squad,mistral:instruct,open_ended,31 October,8,0.0,0.0,0.0,0.0,0.3076923076923077,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_2646,squad,mistral:instruct,open_ended,San Diego,8,0.0,0.0,0.0,0.0,0.3076923076923077,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_2664,squad,mistral:instruct,open_ended,beaches,8,0.013258396242553313,0.5,0.4867416037574467,-0.4867416037574467,0.12481226483340994,0.5,,0.0026025860931521427,0.026237539298697432,-0.0005442670537010308,0.0,-1.0,0.0,stable
+squad_2677,squad,mistral:instruct,open_ended,inequitable taxes,8,0.1584166792418573,0.4330127018922193,0.274596022650362,-0.274596022650362,0.18343339227190655,0.75,,0.0013244042188241267,0.2514907033788921,0.15167714532087143,0.0,0.5,0.0,stable
+squad_2705,squad,mistral:instruct,open_ended,very rare,8,0.07701103651008182,0.0,0.07701103651008182,0.07701103651008182,0.16569865319865318,1.0,,0.06254208754208757,0.10799663299663301,0.05412457912457913,0.0,0.0,0.0,stable
+squad_2803,squad,mistral:instruct,open_ended,an official school sport,8,0.05610538018972512,0.0,0.05610538018972512,0.05610538018972512,0.3991702741702742,1.0,,0.027056277056277056,0.0905483405483406,0.027056277056277056,0.0,0.0,0.0,stable
+squad_2927,squad,mistral:instruct,open_ended,Australian Labor Party,8,0.06428571428571428,0.0,0.06428571428571428,0.06428571428571428,0.36428571428571427,1.0,,0.0,0.12857142857142856,0.0,0.0,0.0,0.0,stable
+squad_3150,squad,mistral:instruct,open_ended,'Bucks Point',8,0.07432970371794298,0.0,0.07432970371794298,0.07432970371794298,0.1610921807747489,1.0,,-0.0035569105691056757,0.1484038737446198,-0.0035569105691056757,0.0,0.0,0.0,stable
+squad_319,squad,mistral:instruct,open_ended,11,8,0.021367521367521375,0.0,0.021367521367521375,0.021367521367521375,0.13247863247863248,1.0,,0.0,0.04273504273504275,0.0,0.0,0.0,0.0,stable
+squad_3257,squad,mistral:instruct,open_ended,external combustion,8,0.2336852703376334,0.0,0.2336852703376334,0.2336852703376334,0.4351396892879021,1.0,,-0.2601554040328914,0.2451052368088112,0.2179559155418428,0.0,0.0,0.0,stable
+squad_3258,squad,mistral:instruct,open_ended,atmospheric engine,8,0.026470588235294135,0.0,0.026470588235294135,0.026470588235294135,0.3264705882352941,1.0,,0.0,-0.05294117647058827,0.0,0.0,0.0,0.0,stable
+squad_3295,squad,mistral:instruct,open_ended,1606,8,0.00784313725490196,0.0,0.00784313725490196,0.00784313725490196,0.12549019607843137,1.0,,0.0,0.01568627450980392,0.0,0.0,0.0,0.0,stable
+squad_3432,squad,mistral:instruct,open_ended,seal,8,0.042879791021321584,0.0,0.042879791021321584,0.042879791021321584,0.1291952707856598,0.0,,-0.02631578947368421,0.0047673531655224866,0.013539282990083917,0.0,0.0,0.0,stable
+squad_3456,squad,mistral:instruct,open_ended,ocean liners,8,0.15229184061336012,0.33071891388307384,0.17842707326971372,-0.17842707326971372,0.32109296287685035,0.875,,0.06241765480895911,0.27448074091296604,0.09310819189335817,0.25,0.25,0.25,stable
+squad_3470,squad,mistral:instruct,open_ended,two atoms,8,0.027777777777777762,0.0,0.027777777777777762,0.027777777777777762,0.4722222222222222,1.0,,0.0,0.055555555555555525,0.0,0.0,0.0,0.0,stable
+squad_3483,squad,mistral:instruct,open_ended,photosynthesis,8,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_3527,squad,mistral:instruct,open_ended,pure O,8,0.05807917490042278,0.4330127018922193,0.3749335269917965,-0.3749335269917965,0.09728506787330318,0.75,,-0.07692307692307694,-0.04072398190045248,0.0,-0.5,-0.5,0.0,stable
+squad_3582,squad,mistral:instruct,open_ended,cellular respiration,8,0.0949538905387878,0.0,0.0949538905387878,0.0949538905387878,0.21010663029618576,1.0,,-0.06217408030890126,0.1177984353140612,0.052111187227140254,0.0,0.0,0.0,stable
+squad_3593,squad,mistral:instruct,open_ended,third,8,0.0,0.0,0.0,0.0,0.33333333333333337,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_3598,squad,mistral:instruct,open_ended,compressing and cooling,8,0.05590604965340533,0.0,0.05590604965340533,0.05590604965340533,0.23562271062271062,1.0,,0.02692307692307694,0.09029304029304028,0.02692307692307694,0.0,0.0,0.0,stable
+squad_3611,squad,mistral:instruct,open_ended,Carotenoids,8,0.025687323989748816,0.0,0.025687323989748816,0.025687323989748816,0.13253676470588235,1.0,,0.01874999999999999,0.022426470588235284,-0.015073529411764708,0.0,0.0,0.0,stable
+squad_3657,squad,mistral:instruct,open_ended,water,8,0.038807819613960785,0.0,0.038807819613960785,0.038807819613960785,0.17857142857142855,1.0,,-0.003174603174603191,0.07619047619047614,-0.0031746031746031633,0.0,0.0,0.0,stable
+squad_3681,squad,mistral:instruct,open_ended,cabin depressurization,8,0.12747933778860104,0.0,0.12747933778860104,0.12747933778860104,0.2872473525775413,1.0,,0.017087297747675145,0.2255052948449175,0.053425522765145395,0.0,0.0,0.0,stable
+squad_3733,squad,mistral:instruct,open_ended,"On October 6, 1973",8,0.17508648382045086,0.0,0.17508648382045086,0.17508648382045086,0.536764705882353,1.0,,0.13235294117647056,0.13235294117647056,0.13235294117647056,0.0,0.0,0.0,stable
+squad_3752,squad,mistral:instruct,open_ended,The embargo,8,0.1285640521591898,0.0,0.1285640521591898,0.1285640521591898,0.20477247502774695,1.0,,-0.0007399186089530052,0.25712171661117283,0.0007399186089530052,0.0,0.0,0.0,stable
+squad_3811,squad,mistral:instruct,open_ended,1985,8,0.024743582965269677,0.0,0.024743582965269677,0.024743582965269677,0.014285714285714287,0.0,,0.0,-0.028571428571428574,0.028571428571428574,0.0,0.0,0.0,stable
+squad_3814,squad,mistral:instruct,open_ended,1979,8,0.012028130608117209,0.0,0.012028130608117209,0.012028130608117209,0.22916666666666666,1.0,,0.0,0.013888888888888895,0.013888888888888895,0.0,0.0,0.0,stable
+squad_3923,squad,mistral:instruct,open_ended,3 days,8,0.06614378277661476,0.5,0.43385621722338524,-0.43385621722338524,0.024999999999999998,0.5,,0.049999999999999996,0.049999999999999996,-0.049999999999999996,0.0,1.0,0.0,stable
+squad_3946,squad,mistral:instruct,open_ended,1969,8,0.0,0.0,0.0,0.0,0.14285714285714288,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_4010,squad,mistral:instruct,open_ended,July 24,8,0.0,0.0,0.0,0.0,0.3076923076923077,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_4012,squad,mistral:instruct,open_ended,Surveyor 3,8,0.015188169985127153,0.0,0.015188169985127153,0.015188169985127153,0.2549019607843137,1.0,,0.007843137254901988,0.023529411764705938,0.007843137254901988,0.0,0.0,0.0,stable
+squad_4040,squad,mistral:instruct,open_ended,Apollo Applications Program,8,0.14725377234348785,0.0,0.14725377234348785,0.14725377234348785,0.6309523809523809,1.0,,0.0,0.09523809523809534,0.26190476190476186,0.0,0.0,0.0,stable
+squad_4061,squad,mistral:instruct,open_ended,Lowry Digital,8,0.0,0.0,0.0,0.0,0.3636363636363636,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_409,squad,mistral:instruct,open_ended,white,8,0.17591512876124357,0.0,0.17591512876124357,0.17591512876124357,0.35174603174603175,1.0,,-0.1584126984126984,0.004444444444444473,-0.21777777777777774,0.0,0.0,0.0,stable
+squad_4119,squad,mistral:instruct,open_ended,this would have also produced a single constitutional document,8,0.036031981941115204,0.0,0.036031981941115204,0.036031981941115204,0.2828255427312031,1.0,,0.029387349198669976,0.03833751852619777,0.017295597484276726,0.0,0.0,0.0,stable
+squad_4304,squad,mistral:instruct,open_ended,"creditor protection, labour rights to participate in work, or the public interest in collecting taxes",8,0.042090645710567844,0.4330127018922193,0.39092205618165143,-0.39092205618165143,0.16995630803375367,0.75,,0.028272339073969505,0.03162888590877719,0.028272339073969505,0.0,0.5,0.0,stable
+squad_4315,squad,mistral:instruct,open_ended,"16,000",8,0.05542441163876282,0.33071891388307384,0.275294502244311,-0.275294502244311,0.05434609250398724,0.125,,0.010606060606060612,0.10869218500797448,-0.0034290271132376426,-0.25,0.25,-0.25,stable
+squad_4333,squad,mistral:instruct,open_ended,Middle Miocene,8,0.01064006413793248,0.0,0.01064006413793248,0.01064006413793248,0.2939560439560439,1.0,,-0.0054945054945055305,0.016483516483516536,-0.0054945054945055305,0.0,0.0,0.0,stable
+squad_4339,squad,mistral:instruct,open_ended,Within the last 5–10 million years,8,0.11111111111111105,0.0,0.11111111111111105,0.11111111111111105,0.5555555555555555,1.0,,0.0,0.0,-0.2222222222222221,0.0,0.0,0.0,stable
+squad_434,squad,mistral:instruct,open_ended,Jaime Weston,8,0.0,0.0,0.0,0.0,0.3076923076923077,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_4342,squad,mistral:instruct,open_ended,the Atlantic,8,0.028070175438596523,0.0,0.028070175438596523,0.028070175438596523,0.2385964912280702,1.0,,0.0,0.056140350877193046,0.0,0.0,0.0,0.0,stable
+squad_4371,squad,mistral:instruct,open_ended,182 million tons,8,0.009492606240704447,0.0,0.009492606240704447,0.009492606240704447,0.34558823529411764,1.0,,0.004901960784313764,0.004901960784313764,-0.01470588235294118,0.0,0.0,0.0,stable
+squad_4374,squad,mistral:instruct,open_ended,43 million tons,8,0.04279260154985725,0.0,0.04279260154985725,0.04279260154985725,0.3139705882352941,1.0,,0.0,0.07794117647058824,0.024999999999999967,0.0,0.0,0.0,stable
+squad_4386,squad,mistral:instruct,open_ended,Betty Meggers,8,0.028070175438596523,0.33071891388307384,0.3026487384444773,-0.3026487384444773,0.2385964912280702,0.875,,0.0,0.056140350877193046,0.0,0.25,-0.25,-0.25,stable
+squad_4422,squad,mistral:instruct,open_ended,378,8,0.027234467856668772,0.0,0.027234467856668772,0.027234467856668772,0.10648252014444715,1.0,,0.0010912698412698374,0.030393355701080663,-0.043185753361899365,0.0,0.0,0.0,stable
+squad_4506,squad,mistral:instruct,open_ended,tentilla,8,0.007349309197401642,0.0,0.007349309197401642,0.007349309197401642,0.20277777777777778,1.0,,-0.005555555555555536,-0.005555555555555536,0.005555555555555536,0.0,0.0,0.0,stable
+squad_4552,squad,mistral:instruct,open_ended,colloblasts,8,0.1120787012151979,0.0,0.1120787012151979,0.1120787012151979,0.1866220238095238,1.0,,-0.007529761904761928,0.22199404761904762,0.007529761904761928,0.0,0.0,0.0,stable
+squad_4554,squad,mistral:instruct,open_ended,colloblasts,8,0.023360141890903692,0.0,0.023360141890903692,0.023360141890903692,0.11573322510822512,1.0,,0.006628787878787901,0.04531926406926412,-0.004464285714285726,0.0,0.0,0.0,stable
+squad_4557,squad,mistral:instruct,open_ended,bilaterians,8,0.1353348784930725,0.4330127018922193,0.29767782339914683,-0.29767782339914683,0.17410714285714285,0.75,,-0.0625,0.2232142857142857,-0.0625,0.0,0.5,-0.5,stable
+squad_4741,squad,mistral:instruct,open_ended,African-American,8,0.037468519951654025,0.0,0.037468519951654025,0.037468519951654025,0.09586834733893557,1.0,,0.00042016806722688926,0.0749299719887955,-0.00042016806722688926,0.0,0.0,0.0,stable
+squad_4803,squad,mistral:instruct,open_ended,Downtown Fresno,8,0.01282051282051283,0.0,0.01282051282051283,0.01282051282051283,0.32051282051282054,1.0,,0.0,0.02564102564102566,0.0,0.0,0.0,0.0,stable
+squad_4808,squad,mistral:instruct,open_ended,"provide a fault-tolerant, efficient routing method for telecommunication messages",8,0.05455984463650698,0.0,0.05455984463650698,0.05455984463650698,0.3837881085331023,1.0,,0.00013654889124226077,0.10742378293379545,-0.013213471968165358,0.0,0.0,0.0,stable
+squad_488,squad,mistral:instruct,open_ended,San Jose,8,0.018181818181818216,0.0,0.018181818181818216,0.018181818181818216,0.38181818181818183,1.0,,0.0,0.03636363636363643,0.0,0.0,0.0,0.0,stable
+squad_4889,squad,mistral:instruct,open_ended,A user or host could call a host on a foreign network by including the DNIC of the remote network as part of the destination address,8,0.10497935358136265,0.33071891388307384,0.2257395603017112,-0.2257395603017112,0.45355284862327117,0.875,,0.06566425580510082,0.15956096942012432,0.026227636086791017,0.25,0.25,0.25,stable
+squad_5038,squad,mistral:instruct,open_ended,the mantle,8,0.08211536231818631,0.0,0.08211536231818631,0.08211536231818631,0.2049206349206349,1.0,,-0.011428571428571427,0.16158730158730158,0.013015873015873036,0.0,0.0,0.0,stable
+squad_5107,squad,mistral:instruct,open_ended,all angles remain the same,8,0.04776638839353729,0.33071891388307384,0.28295252548953653,-0.28295252548953653,0.1975843339050886,0.875,,-0.007861635220125784,0.07755860491709546,0.027104377104377103,-0.25,0.25,0.25,stable
+squad_5155,squad,mistral:instruct,open_ended,William the Lion,8,0.09131455695200918,0.0,0.09131455695200918,0.09131455695200918,0.21242050219436853,1.0,,-0.01999564783386379,0.17927798874627437,0.014989390011585974,0.0,0.0,0.0,stable
+squad_5168,squad,mistral:instruct,open_ended,the Scots,8,0.1610446340293891,0.0,0.1610446340293891,0.1610446340293891,0.380952380952381,1.0,,0.1428571428571429,0.261904761904762,0.05952380952380959,0.0,0.0,0.0,stable
+squad_520,squad,mistral:instruct,open_ended,25 percent,8,0.03276013479452121,0.5,0.4672398652054788,-0.4672398652054788,0.18736517746560788,0.5,,0.007529215563648828,0.06251316036108001,-0.006020919937706148,-0.5,0.5,-0.5,stable
+squad_525,squad,mistral:instruct,open_ended,18,8,0.05412658773652741,0.0,0.05412658773652741,0.05412658773652741,0.03125,1.0,,0.0,-0.0625,0.0,0.0,0.0,0.0,stable
+squad_53,squad,mistral:instruct,open_ended,Arizona Cardinals,8,0.009449111825230666,0.0,0.009449111825230666,0.009449111825230666,0.42499999999999993,1.0,,0.0071428571428571175,0.0071428571428571175,-0.0071428571428571175,0.0,0.0,0.0,stable
+squad_5310,squad,mistral:instruct,open_ended,Sting,8,0.31664491733342975,0.0,0.31664491733342975,0.31664491733342975,0.46212121212121215,1.0,,0.0,-0.25757575757575757,0.40909090909090917,0.0,0.0,0.0,stable
+squad_5313,squad,mistral:instruct,open_ended,Newcastle Diamonds,8,0.0,0.0,0.0,0.0,0.3636363636363636,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_5514,squad,mistral:instruct,open_ended,"more than 70,000",8,0.0,0.0,0.0,0.0,0.42857142857142855,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_5573,squad,mistral:instruct,open_ended,Germany and Switzerland,8,0.331241996715108,0.0,0.331241996715108,0.331241996715108,0.743421052631579,1.0,,-0.17105263157894735,0.17105263157894735,-0.17105263157894735,0.0,0.0,0.0,stable
+squad_5574,squad,mistral:instruct,open_ended,4000,8,0.0,0.0,0.0,0.0,0.4,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_5635,squad,mistral:instruct,open_ended,233,8,0.0,0.0,0.0,0.0,0.2222222222222222,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_5820,squad,mistral:instruct,open_ended,1963–64 season,8,0.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_5881,squad,mistral:instruct,open_ended,2006,8,0.0,0.0,0.0,0.0,0.2222222222222222,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_5925,squad,mistral:instruct,open_ended,iTunes,8,0.28039300156678604,0.0,0.28039300156678604,0.28039300156678604,0.28005604288499025,1.0,,-0.24544346978557507,-0.08511208576998047,-0.2269249512670565,0.0,0.0,0.0,stable
+squad_5930,squad,mistral:instruct,open_ended,1970,8,0.0,0.0,0.0,0.0,0.2222222222222222,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_5947,squad,mistral:instruct,open_ended,HD,8,0.046213935001033775,0.0,0.046213935001033775,0.046213935001033775,0.12086956521739131,1.0,,-0.0017391304347826042,0.09159420289855075,-0.008405797101449258,0.0,0.0,0.0,stable
+squad_5977,squad,mistral:instruct,open_ended,Time Warner Cable,8,0.3888888888888889,0.0,0.3888888888888889,0.3888888888888889,0.6111111111111112,1.0,,0.0,0.7777777777777778,0.0,0.0,0.0,0.0,stable
+squad_6065,squad,mistral:instruct,open_ended,NBC,8,0.0,0.0,0.0,0.0,0.19999999999999998,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_6118,squad,mistral:instruct,open_ended,"Hasar, Hachiun, and Temüge",8,0.0,0.0,0.0,0.0,0.6153846153846153,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_6126,squad,mistral:instruct,open_ended,the Tayichi'ud,8,0.06101049913289682,0.0,0.06101049913289682,0.06101049913289682,0.30338680926916217,1.0,,0.007843137254901933,0.12049910873440278,-0.007843137254901988,0.0,0.0,0.0,stable
+squad_6201,squad,mistral:instruct,open_ended,the Silk Road,8,0.0,0.0,0.0,0.0,0.5,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_6216,squad,mistral:instruct,open_ended,reneged,8,0.06556965245280913,0.4841229182759271,0.418553265823118,-0.418553265823118,0.07294248076170601,0.625,,-0.02823790269988262,-0.05497587061432112,0.02823790269988262,-0.25,-0.75,0.25,stable
+squad_6224,squad,mistral:instruct,open_ended,Subutai,8,0.05242940580049132,0.0,0.05242940580049132,0.05242940580049132,0.09027777777777778,1.0,,0.0,-0.06944444444444445,0.05555555555555555,0.0,0.0,0.0,stable
+squad_6227,squad,mistral:instruct,open_ended,Mstislav the Bold of Halych and Mstislav III of Kiev,8,0.09051845855803524,0.0,0.09051845855803524,0.09051845855803524,0.35417448112028005,1.0,,0.05040322580645151,0.12498437109277316,-0.050403225806451624,0.0,0.0,0.0,stable
+squad_6252,squad,mistral:instruct,open_ended,Khorasan,8,0.1411764705882353,0.0,0.1411764705882353,0.1411764705882353,0.25882352941176473,1.0,,0.0,0.2823529411764706,0.0,0.0,0.0,0.0,stable
+squad_6304,squad,mistral:instruct,open_ended,the Silk Road,8,0.05061187424714251,0.0,0.05061187424714251,0.05061187424714251,0.45779220779220775,1.0,,0.0,0.05844155844155846,-0.05844155844155846,0.0,0.0,0.0,stable
+squad_6482,squad,mistral:instruct,open_ended,"pathogens, from viruses to parasitic worms",8,0.022811662594204255,0.0,0.022811662594204255,0.022811662594204255,0.20299646174259178,1.0,,0.029301194161875266,-0.0007297655904466849,0.0026315789473684292,0.0,0.0,0.0,stable
+squad_6537,squad,mistral:instruct,open_ended,tears,8,0.0,0.0,0.0,0.0,0.18181818181818182,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_6543,squad,mistral:instruct,open_ended,commensal flora,8,0.04469018498766664,0.0,0.04469018498766664,0.04469018498766664,0.20810439560439561,1.0,,0.027319902319902334,0.07097069597069597,0.027319902319902334,0.0,0.0,0.0,stable
+squad_6572,squad,mistral:instruct,open_ended,MHC I (major histocompatibility complex),8,0.0303067878863175,0.0,0.0303067878863175,0.0303067878863175,0.4926046176046176,1.0,,-0.007936507936507908,0.002886002886002881,-0.04256854256854253,0.0,0.0,0.0,stable
+squad_6873,squad,mistral:instruct,open_ended,creative plea,8,0.007161989527943349,0.0,0.007161989527943349,0.007161989527943349,0.09095980964447863,0.0,,-0.0006561382868003063,0.012315413970466232,0.0031317405010784782,0.0,0.0,0.0,stable
+squad_6912,squad,mistral:instruct,open_ended,Construction,8,0.05076290512689608,0.4330127018922193,0.3822497967653232,-0.3822497967653232,0.06934974747474748,0.75,,0.030744949494949506,0.0942550505050505,-0.008522727272727279,0.5,0.5,0.0,stable
+squad_6916,squad,mistral:instruct,open_ended,a known client,8,0.03779644730092272,0.0,0.03779644730092272,0.03779644730092272,0.47857142857142854,1.0,,0.04285714285714287,0.04285714285714287,0.007142857142857173,0.0,0.0,0.0,stable
+squad_6924,squad,mistral:instruct,open_ended,"heavy/highway, heavy civil or heavy engineering",8,0.0,0.0,0.0,0.0,0.625,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_6932,squad,mistral:instruct,open_ended,"construction service firms (e.g., engineering, architecture) and construction managers",8,0.14833594865773309,0.33071891388307384,0.18238296522534075,-0.18238296522534075,0.17134436601649716,0.875,,0.1359326465883843,0.16553637619211392,0.08527947462373692,-0.25,0.25,0.25,stable
+squad_7019,squad,mistral:instruct,open_ended,upper sixth,8,0.01515151515151511,0.0,0.01515151515151511,0.01515151515151511,0.3484848484848485,1.0,,0.0,0.03030303030303022,0.0,0.0,0.0,0.0,stable
+squad_711,squad,mistral:instruct,open_ended,Mike Carey,8,0.048556977680262,0.0,0.048556977680262,0.048556977680262,0.22479275110854058,1.0,,0.0,0.0686331212647002,0.04858299595141702,0.0,0.0,0.0,stable
+squad_7123,squad,mistral:instruct,open_ended,John Harvard,8,0.0,0.0,0.0,0.0,0.4444444444444445,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_7177,squad,mistral:instruct,open_ended,30% loss,8,0.040000882890291266,0.0,0.040000882890291266,0.040000882890291266,0.03758576164045637,0.0,,0.010859929078014183,-0.07517152328091274,0.010859929078014183,0.0,0.0,0.0,stable
+squad_7359,squad,mistral:instruct,open_ended,productivity gap between highly-paid professions and lower-paid professions,8,0.05482555766946999,0.4841229182759271,0.4292973606064571,-0.4292973606064571,0.2979515050167224,0.625,,0.01858974358974358,0.0997491638795987,0.018589743589743635,-0.25,0.75,-0.25,stable
+squad_7397,squad,mistral:instruct,open_ended,achievement-oriented,8,0.11825625731280905,0.0,0.11825625731280905,0.11825625731280905,0.23989898989898992,1.0,,0.13131313131313133,0.14646464646464646,0.0,0.0,0.0,0.0,stable
+squad_7428,squad,mistral:instruct,open_ended,decrease,8,0.10972719244324654,0.5,0.3902728075567535,-0.3902728075567535,0.3412989479836353,0.5,,-0.000988700564971745,0.21395382817066044,0.033494058055717923,0.0,-1.0,0.0,stable
+squad_7433,squad,mistral:instruct,open_ended,designed to equip students with necessary skill sets to be able to perform at work,8,0.0876374756957885,0.0,0.0876374756957885,0.0876374756957885,0.22710037962553442,1.0,,-0.008315826330532183,-0.1711125239569512,0.012517507002801131,0.0,0.0,0.0,stable
+squad_750,squad,mistral:instruct,open_ended,Ted Ginn Jr.,8,0.0,0.4330127018922193,0.4330127018922193,-0.4330127018922193,0.2727272727272727,0.25,,0.0,0.0,0.0,0.0,0.5,-0.5,stable
+squad_7517,squad,mistral:instruct,open_ended,23,8,0.0,0.0,0.0,0.0,0.19999999999999998,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_7527,squad,mistral:instruct,open_ended,among states in the US with larger income inequalities,8,0.05691632426838175,0.0,0.05691632426838175,0.05691632426838175,0.40564990339307194,1.0,,-0.002522377319059188,0.09779110230476534,0.023992774196092415,0.0,0.0,0.0,stable
+squad_7573,squad,mistral:instruct,open_ended,between 1960 and 2000,8,0.0,0.0,0.0,0.0,0.5333333333333333,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_7668,squad,mistral:instruct,open_ended,Rose,8,0.03113688245856543,0.0,0.03113688245856543,0.03113688245856543,0.1365546218487395,1.0,,0.011204481792717075,0.06022408963585435,0.0,0.0,0.0,0.0,stable
+squad_771,squad,mistral:instruct,open_ended,Miller,8,0.05125982241615903,0.0,0.05125982241615903,0.05125982241615903,0.2483072483072483,1.0,,0.02286602286602285,0.07481407481407482,-0.043068043068043044,0.0,0.0,0.0,stable
+squad_7787,squad,mistral:instruct,open_ended,Roger Delgado,8,0.03242342292971313,0.0,0.03242342292971313,0.03242342292971313,0.32107843137254904,1.0,,0.02450980392156865,0.02450980392156865,0.02450980392156865,0.0,0.0,0.0,stable
+squad_7962,squad,mistral:instruct,open_ended,Marshall Field,8,0.01515151515151511,0.0,0.01515151515151511,0.01515151515151511,0.3484848484848485,1.0,,0.0,0.03030303030303022,0.0,0.0,0.0,0.0,stable
+squad_8005,squad,mistral:instruct,open_ended,Renmin University,8,0.013888888888888912,0.5,0.4861111111111111,-0.4861111111111111,0.25277777777777777,0.5,,0.011111111111111127,0.019444444444444514,-0.011111111111111127,0.0,-0.5,0.0,stable
+squad_8085,squad,mistral:instruct,open_ended,Eliot Ness,8,0.022047927592204915,0.0,0.022047927592204915,0.022047927592204915,0.3916666666666667,1.0,,0.01666666666666672,0.01666666666666672,0.01666666666666672,0.0,0.0,0.0,stable
+squad_8179,squad,mistral:instruct,open_ended,1234,8,0.0,0.0,0.0,0.0,0.2857142857142857,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_8201,squad,mistral:instruct,open_ended,1313,8,0.02666264891679901,0.0,0.02666264891679901,0.02666264891679901,0.1904040404040404,1.0,,0.0010101010101009888,0.041414141414141376,0.012121212121212144,0.0,0.0,0.0,stable
+squad_8279,squad,mistral:instruct,open_ended,"Buddhism, especially the Tibetan variants",8,0.014285714285714235,0.0,0.014285714285714235,0.014285714285714235,0.4142857142857143,1.0,,0.0,-0.02857142857142847,0.0,0.0,0.0,0.0,stable
+squad_8317,squad,mistral:instruct,open_ended,1294,8,0.0,0.0,0.0,0.0,0.2222222222222222,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_8348,squad,mistral:instruct,open_ended,Khanbaliq,8,0.028571428571428553,0.0,0.028571428571428553,0.028571428571428553,0.17142857142857143,1.0,,0.0,0.057142857142857106,0.0,0.0,0.0,0.0,stable
+squad_8479,squad,mistral:instruct,open_ended,", helped to increase local producer prices by 20–25%",8,0.08218706547807866,0.0,0.08218706547807866,0.08218706547807866,0.5371732026143791,1.0,,0.04166666666666663,0.10212418300653597,0.06944444444444442,0.0,0.0,0.0,stable
+squad_8645,squad,mistral:instruct,open_ended,"Jones et al. 1998, Pollack, Huang & Shen 1998, Crowley & Lowery 2000 and Briffa 2000",8,0.031294625306095954,0.4841229182759271,0.4528282929698312,-0.4528282929698312,0.11356351981351984,0.375,,-0.017628205128205135,0.04530885780885785,-0.017628205128205135,-0.25,0.75,-0.25,stable
+squad_8669,squad,mistral:instruct,open_ended,coordinating lead author of the Fifth Assessment Report,8,0.08826945412311271,0.0,0.08826945412311271,0.08826945412311271,0.6736353077816493,1.0,,0.0,0.17653890824622542,0.0,0.0,0.0,0.0,stable
+squad_8689,squad,mistral:instruct,open_ended,the Calvin cycle,8,0.09647199901512953,0.0,0.09647199901512953,0.09647199901512953,0.30134996582365003,1.0,,0.08808954203691044,0.14730006835269993,0.0016233766233766378,0.0,0.0,0.0,stable
+squad_8727,squad,mistral:instruct,open_ended,accessory pigments that override the chlorophylls' green colors,8,0.13739107879951484,0.0,0.13739107879951484,0.13739107879951484,0.503592427968683,1.0,,0.0018501387604069608,0.27281514406263385,0.02305904650165841,0.0,0.0,0.0,stable
+squad_8751,squad,mistral:instruct,open_ended,"fatty acids, isopentenyl pyrophosphate, iron-sulfur clusters",8,0.09999999999999998,0.0,0.09999999999999998,0.09999999999999998,0.5,0.0,,0.0,0.19999999999999996,0.0,0.0,0.0,0.0,stable
+squad_8785,squad,mistral:instruct,open_ended,1962,8,0.02183019385109976,0.0,0.02183019385109976,0.02183019385109976,0.178525641025641,1.0,,-0.0032051282051282215,0.042948717948717935,-0.0032051282051282215,0.0,0.0,0.0,stable
+squad_8797,squad,mistral:instruct,open_ended,when it is single stranded,8,0.14370944975312014,0.0,0.14370944975312014,0.14370944975312014,0.2850773771223721,1.0,,-0.008184116187149537,0.286988102898113,0.006598492508502585,0.0,0.0,0.0,stable
+squad_8830,squad,mistral:instruct,open_ended,Stromules,8,0.02031905449407291,0.0,0.02031905449407291,0.02031905449407291,0.1410570638511815,1.0,,0.010620915032679729,0.025578179989944716,-0.013888888888888895,0.0,0.0,0.0,stable
+squad_8835,squad,mistral:instruct,open_ended,"in some C3 angiosperms, and even some gymnosperms",8,0.005087983290508847,0.0,0.005087983290508847,0.005087983290508847,0.3865384615384615,0.0,,0.0038461538461538325,-0.0038461538461538325,-0.0038461538461538325,0.0,0.0,0.0,stable
+squad_8837,squad,mistral:instruct,open_ended,increase the chloroplast's surface area for cross-membrane transport,8,0.14927682651598215,0.0,0.14927682651598215,0.14927682651598215,0.5879996229260935,1.0,,0.047039969834087425,0.2945889894419307,0.0,0.0,0.0,0.0,stable
+squad_8928,squad,mistral:instruct,open_ended,cyclic photophosphorylation,8,0.024056261216234394,0.0,0.024056261216234394,0.024056261216234394,0.4861111111111111,1.0,,0.0,0.02777777777777779,0.02777777777777779,0.0,0.0,0.0,stable
+squad_8935,squad,mistral:instruct,open_ended,glucose monomers in the chloroplast can be linked together,8,0.2202380952380952,0.0,0.2202380952380952,0.2202380952380952,0.6369047619047619,1.0,,0.0,0.4404761904761904,0.0,0.0,0.0,0.0,stable
+squad_9,squad,mistral:instruct,open_ended,American Football Conference,8,0.12938143080551362,0.0,0.12938143080551362,0.12938143080551362,0.6765151515151515,1.0,,-0.11363636363636365,0.01969696969696977,0.08636363636363631,0.0,0.0,0.0,stable
+squad_9007,squad,mistral:instruct,open_ended,Christian Goldbach,8,0.032069712861388947,0.33071891388307384,0.2986492010216849,-0.2986492010216849,0.2787878787878788,0.125,,-0.024242424242424232,-0.024242424242424232,-0.024242424242424232,-0.25,-0.25,-0.25,stable
+squad_9044,squad,mistral:instruct,open_ended,primorial primes,8,0.04371412260626372,0.4330127018922193,0.38929857928595557,-0.38929857928595557,0.07565789473684209,0.75,,-0.0013157894736842007,0.04868421052631579,0.0513157894736842,0.0,0.5,0.5,stable
+squad_9064,squad,mistral:instruct,open_ended,exceeds any given number,8,0.13707213880901445,0.0,0.13707213880901445,0.13707213880901445,0.2694897769198452,1.0,,-0.006570974063778712,0.2521215019672478,0.08400345649071173,0.0,0.0,0.0,stable
+squad_9125,squad,mistral:instruct,open_ended,norm gets smaller,8,0.10143911618126344,0.33071891388307384,0.2292797977018104,-0.2292797977018104,0.17096755629801114,0.875,,0.04813841681574238,0.0757119462275071,0.14652642586551617,-0.25,0.25,0.25,stable
+squad_916,squad,mistral:instruct,open_ended,12th/13th-century nobleman,8,0.042759617148518635,0.0,0.042759617148518635,0.042759617148518635,0.19797979797979798,1.0,,-0.03232323232323231,-0.03232323232323231,-0.03232323232323231,0.0,0.0,0.0,stable
+squad_9195,squad,mistral:instruct,open_ended,upper lake,8,0.0,0.0,0.0,0.0,0.18181818181818182,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_9197,squad,mistral:instruct,open_ended,Austria,8,0.036088959501241274,0.0,0.036088959501241274,0.036088959501241274,0.1664407230196704,1.0,,0.0030834662413609937,0.058027644869750095,0.024694311536416796,0.0,0.0,0.0,stable
+squad_9292,squad,mistral:instruct,open_ended,Waal,8,0.026663798545823774,0.4330127018922193,0.4063489033463955,-0.4063489033463955,0.1628297940797941,0.75,,-0.010778635778635803,-0.01018339768339771,0.029231016731016746,0.0,-0.5,0.5,stable
+squad_9295,squad,mistral:instruct,open_ended,Pannerdens Kanaal,8,0.024590370452110575,0.0,0.024590370452110575,0.024590370452110575,0.20317460317460317,1.0,,-0.012698412698412709,0.03809523809523807,0.012698412698412709,0.0,0.0,0.0,stable
+squad_9459,squad,mistral:instruct,open_ended,City of Edinburgh Council,8,0.0,0.0,0.0,0.0,0.625,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_949,squad,mistral:instruct,open_ended,"""Bricks for Warsaw""",8,0.0,0.0,0.0,0.0,0.375,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_9560,squad,mistral:instruct,open_ended,the Monarch,8,0.02886751345948128,0.0,0.02886751345948128,0.02886751345948128,0.2833333333333334,1.0,,0.033333333333333326,-0.033333333333333326,0.0,0.0,0.0,0.0,stable
+squad_9577,squad,mistral:instruct,open_ended,legislative programme for the forthcoming year,8,0.06153846153846157,0.0,0.06153846153846157,0.06153846153846157,0.4717948717948718,1.0,,0.0,0.12307692307692314,0.0,0.0,0.0,0.0,stable
+squad_9654,squad,mistral:instruct,open_ended,Saudi,8,0.04242424242424245,0.0,0.04242424242424245,0.04242424242424245,0.22424242424242427,1.0,,0.0,0.0848484848484849,0.0,0.0,0.0,0.0,stable
+squad_9674,squad,mistral:instruct,open_ended,in a modern context,8,0.08819171036881968,0.0,0.08819171036881968,0.08819171036881968,0.6333333333333333,1.0,,0.06666666666666665,0.06666666666666665,0.06666666666666665,0.0,0.0,0.0,stable
+squad_9763,squad,mistral:instruct,open_ended,American attack on Iraq,8,0.031183440790719975,0.0,0.031183440790719975,0.031183440790719975,0.41062801932367154,1.0,,0.016103059581320522,0.048309178743961456,-0.016103059581320522,0.0,0.0,0.0,stable
+squad_9771,squad,mistral:instruct,open_ended,1992,8,0.0,0.0,0.0,0.0,0.2222222222222222,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_9813,squad,mistral:instruct,open_ended,undermining the communist ideology,8,0.13398274852362116,0.0,0.13398274852362116,0.13398274852362116,0.2872166821139863,1.0,,-0.0008710801393728151,0.2676718989299221,-0.008781429513136818,0.0,0.0,0.0,stable
+squad_9863,squad,mistral:instruct,open_ended,irrational and backward,8,0.050902004621381135,0.33071891388307384,0.2798169092616927,-0.2798169092616927,0.40366479925303456,0.875,,0.04225023342670403,0.06447245564892629,0.006956115779645222,-0.25,-0.25,-0.25,stable
+squad_9891,squad,mistral:instruct,open_ended,many imperial powers,8,0.012479959014455616,0.0,0.012479959014455616,0.012479959014455616,0.0047169811320754715,1.0,,-0.009433962264150943,-0.009433962264150943,-0.009433962264150943,0.0,0.0,0.0,stable
+squad_9938,squad,mistral:instruct,open_ended,Algeria,8,0.08597018678514672,0.33071891388307384,0.2447487270979271,-0.2447487270979271,0.1369047619047619,0.875,,-0.1261904761904762,-0.07380952380952381,0.026190476190476195,-0.25,0.25,0.25,stable
+squad_9977,squad,mistral:instruct,open_ended,Middle East,8,0.0,0.0,0.0,0.0,1.0,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,stable
+squad_9980,squad,mistral:instruct,open_ended,a war erupted,8,0.0425531914893617,0.4330127018922193,0.3904595104028576,-0.3904595104028576,0.02127659574468085,0.25,,0.021276595744680847,-0.0425531914893617,-0.0425531914893617,0.0,-0.5,-0.5,stable

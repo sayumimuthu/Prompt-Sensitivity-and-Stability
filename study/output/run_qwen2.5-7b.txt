@@ -1,0 +1,246 @@
+WARNING: myenv not found at /opt/anaconda3/envs/myenv/bin/python — using system python (packages may be missing)
+ Model  : qwen2.5:7b
+ Backend: ollama
+ N items: 200 per dataset  (limit=0)
+ Output : study/output/qwen2.5-7b
+[1/4] Prompts already exist at study/output/prompts.jsonl — skipping.
+
+[2/4] Running inference...
+Inference: backend=ollama  model=qwen2.5:7b  device=n/a  n=4800
+  50/4800 done  (errors so far: 0)
+  100/4800 done  (errors so far: 0)
+  150/4800 done  (errors so far: 0)
+  200/4800 done  (errors so far: 0)
+  250/4800 done  (errors so far: 0)
+  300/4800 done  (errors so far: 0)
+  350/4800 done  (errors so far: 0)
+  400/4800 done  (errors so far: 0)
+  450/4800 done  (errors so far: 0)
+  500/4800 done  (errors so far: 0)
+  550/4800 done  (errors so far: 0)
+  600/4800 done  (errors so far: 0)
+  650/4800 done  (errors so far: 0)
+  700/4800 done  (errors so far: 0)
+  750/4800 done  (errors so far: 0)
+  800/4800 done  (errors so far: 0)
+  850/4800 done  (errors so far: 0)
+  900/4800 done  (errors so far: 0)
+  950/4800 done  (errors so far: 0)
+  1000/4800 done  (errors so far: 0)
+  1050/4800 done  (errors so far: 0)
+  1100/4800 done  (errors so far: 0)
+  1150/4800 done  (errors so far: 0)
+  1200/4800 done  (errors so far: 0)
+  1250/4800 done  (errors so far: 0)
+  1300/4800 done  (errors so far: 0)
+  1350/4800 done  (errors so far: 0)
+  1400/4800 done  (errors so far: 0)
+  1450/4800 done  (errors so far: 0)
+  1500/4800 done  (errors so far: 0)
+  1550/4800 done  (errors so far: 0)
+  1600/4800 done  (errors so far: 0)
+  1650/4800 done  (errors so far: 0)
+  1700/4800 done  (errors so far: 0)
+  1750/4800 done  (errors so far: 0)
+  1800/4800 done  (errors so far: 0)
+  1850/4800 done  (errors so far: 0)
+  1900/4800 done  (errors so far: 0)
+  1950/4800 done  (errors so far: 0)
+  2000/4800 done  (errors so far: 0)
+  2050/4800 done  (errors so far: 0)
+  2100/4800 done  (errors so far: 0)
+  2150/4800 done  (errors so far: 0)
+  2200/4800 done  (errors so far: 0)
+  2250/4800 done  (errors so far: 0)
+  2300/4800 done  (errors so far: 0)
+  2350/4800 done  (errors so far: 0)
+  2400/4800 done  (errors so far: 0)
+  2450/4800 done  (errors so far: 0)
+  2500/4800 done  (errors so far: 0)
+  2550/4800 done  (errors so far: 0)
+  2600/4800 done  (errors so far: 0)
+  2650/4800 done  (errors so far: 0)
+  2700/4800 done  (errors so far: 0)
+  2750/4800 done  (errors so far: 0)
+  2800/4800 done  (errors so far: 0)
+  2850/4800 done  (errors so far: 0)
+  2900/4800 done  (errors so far: 0)
+  2950/4800 done  (errors so far: 0)
+  3000/4800 done  (errors so far: 0)
+  3050/4800 done  (errors so far: 0)
+  3100/4800 done  (errors so far: 0)
+  3150/4800 done  (errors so far: 0)
+  3200/4800 done  (errors so far: 0)
+  3250/4800 done  (errors so far: 0)
+  3300/4800 done  (errors so far: 0)
+  3350/4800 done  (errors so far: 0)
+  3400/4800 done  (errors so far: 0)
+  3450/4800 done  (errors so far: 0)
+  3500/4800 done  (errors so far: 0)
+  3550/4800 done  (errors so far: 0)
+  3600/4800 done  (errors so far: 0)
+  3650/4800 done  (errors so far: 0)
+  3700/4800 done  (errors so far: 0)
+  3750/4800 done  (errors so far: 0)
+  3800/4800 done  (errors so far: 0)
+  3850/4800 done  (errors so far: 0)
+  3900/4800 done  (errors so far: 0)
+  3950/4800 done  (errors so far: 0)
+  4000/4800 done  (errors so far: 0)
+  4050/4800 done  (errors so far: 0)
+  4100/4800 done  (errors so far: 0)
+  4150/4800 done  (errors so far: 0)
+  4200/4800 done  (errors so far: 0)
+  4250/4800 done  (errors so far: 0)
+  4300/4800 done  (errors so far: 0)
+  4350/4800 done  (errors so far: 0)
+  4400/4800 done  (errors so far: 0)
+  4450/4800 done  (errors so far: 0)
+  4500/4800 done  (errors so far: 0)
+  4550/4800 done  (errors so far: 0)
+  4600/4800 done  (errors so far: 0)
+  4650/4800 done  (errors so far: 0)
+  4700/4800 done  (errors so far: 0)
+  4750/4800 done  (errors so far: 0)
+  4800/4800 done  (errors so far: 0)
+Wrote 4800 rows to study/output/qwen2.5-7b/responses.jsonl  (errors: 0)
+
+[3/4] Running LLM-as-Judge...
+LLM-as-Judge: backend=ollama  model=llama3.1:8b  device=n/a  n=4800
+  50/4800 judged  |  accuracy so far: 72.0%  (errors: 0)
+  100/4800 judged  |  accuracy so far: 76.0%  (errors: 0)
+  150/4800 judged  |  accuracy so far: 69.3%  (errors: 0)
+  200/4800 judged  |  accuracy so far: 69.0%  (errors: 0)
+  250/4800 judged  |  accuracy so far: 69.6%  (errors: 0)
+  300/4800 judged  |  accuracy so far: 71.3%  (errors: 0)
+  350/4800 judged  |  accuracy so far: 70.0%  (errors: 0)
+  400/4800 judged  |  accuracy so far: 70.8%  (errors: 0)
+  450/4800 judged  |  accuracy so far: 73.1%  (errors: 0)
+  500/4800 judged  |  accuracy so far: 74.0%  (errors: 0)
+  550/4800 judged  |  accuracy so far: 74.4%  (errors: 0)
+  600/4800 judged  |  accuracy so far: 76.5%  (errors: 0)
+  650/4800 judged  |  accuracy so far: 77.8%  (errors: 0)
+  700/4800 judged  |  accuracy so far: 77.4%  (errors: 0)
+  750/4800 judged  |  accuracy so far: 77.9%  (errors: 0)
+  800/4800 judged  |  accuracy so far: 78.1%  (errors: 0)
+  850/4800 judged  |  accuracy so far: 78.0%  (errors: 0)
+  900/4800 judged  |  accuracy so far: 77.9%  (errors: 0)
+  950/4800 judged  |  accuracy so far: 78.5%  (errors: 0)
+  1000/4800 judged  |  accuracy so far: 77.3%  (errors: 0)
+  1050/4800 judged  |  accuracy so far: 77.8%  (errors: 0)
+  1100/4800 judged  |  accuracy so far: 77.4%  (errors: 0)
+  1150/4800 judged  |  accuracy so far: 78.2%  (errors: 0)
+  1200/4800 judged  |  accuracy so far: 78.6%  (errors: 0)
+  1250/4800 judged  |  accuracy so far: 79.1%  (errors: 0)
+  1300/4800 judged  |  accuracy so far: 79.2%  (errors: 0)
+  1350/4800 judged  |  accuracy so far: 78.9%  (errors: 0)
+  1400/4800 judged  |  accuracy so far: 78.7%  (errors: 0)
+  1450/4800 judged  |  accuracy so far: 79.0%  (errors: 0)
+  1500/4800 judged  |  accuracy so far: 79.3%  (errors: 0)
+  1550/4800 judged  |  accuracy so far: 79.2%  (errors: 0)
+  1600/4800 judged  |  accuracy so far: 79.4%  (errors: 0)
+  1650/4800 judged  |  accuracy so far: 80.1%  (errors: 0)
+  1700/4800 judged  |  accuracy so far: 80.4%  (errors: 0)
+  1750/4800 judged  |  accuracy so far: 80.4%  (errors: 0)
+  1800/4800 judged  |  accuracy so far: 80.2%  (errors: 0)
+  1850/4800 judged  |  accuracy so far: 80.3%  (errors: 0)
+  1900/4800 judged  |  accuracy so far: 79.8%  (errors: 0)
+  1950/4800 judged  |  accuracy so far: 79.8%  (errors: 0)
+  2000/4800 judged  |  accuracy so far: 79.9%  (errors: 0)
+  2050/4800 judged  |  accuracy so far: 79.6%  (errors: 0)
+  2100/4800 judged  |  accuracy so far: 79.9%  (errors: 0)
+  2150/4800 judged  |  accuracy so far: 80.0%  (errors: 0)
+  2200/4800 judged  |  accuracy so far: 80.3%  (errors: 0)
+  2250/4800 judged  |  accuracy so far: 80.4%  (errors: 0)
+  2300/4800 judged  |  accuracy so far: 80.3%  (errors: 0)
+  2350/4800 judged  |  accuracy so far: 80.3%  (errors: 0)
+  2400/4800 judged  |  accuracy so far: 80.3%  (errors: 0)
+  2450/4800 judged  |  accuracy so far: 80.6%  (errors: 0)
+  2500/4800 judged  |  accuracy so far: 80.6%  (errors: 0)
+  2550/4800 judged  |  accuracy so far: 80.6%  (errors: 0)
+  2600/4800 judged  |  accuracy so far: 80.4%  (errors: 0)
+  2650/4800 judged  |  accuracy so far: 79.8%  (errors: 0)
+  2700/4800 judged  |  accuracy so far: 79.9%  (errors: 0)
+  2750/4800 judged  |  accuracy so far: 80.3%  (errors: 0)
+  2800/4800 judged  |  accuracy so far: 80.2%  (errors: 0)
+  2850/4800 judged  |  accuracy so far: 80.5%  (errors: 0)
+  2900/4800 judged  |  accuracy so far: 80.7%  (errors: 0)
+  2950/4800 judged  |  accuracy so far: 81.1%  (errors: 0)
+  3000/4800 judged  |  accuracy so far: 80.8%  (errors: 0)
+  3050/4800 judged  |  accuracy so far: 81.1%  (errors: 0)
+  3100/4800 judged  |  accuracy so far: 80.7%  (errors: 0)
+  3150/4800 judged  |  accuracy so far: 80.4%  (errors: 0)
+  3200/4800 judged  |  accuracy so far: 80.4%  (errors: 0)
+  3250/4800 judged  |  accuracy so far: 80.5%  (errors: 0)
+  3300/4800 judged  |  accuracy so far: 80.8%  (errors: 0)
+  3350/4800 judged  |  accuracy so far: 80.7%  (errors: 0)
+  3400/4800 judged  |  accuracy so far: 80.8%  (errors: 0)
+  3450/4800 judged  |  accuracy so far: 81.1%  (errors: 0)
+  3500/4800 judged  |  accuracy so far: 81.2%  (errors: 0)
+  3550/4800 judged  |  accuracy so far: 81.3%  (errors: 0)
+  3600/4800 judged  |  accuracy so far: 81.6%  (errors: 0)
+  3650/4800 judged  |  accuracy so far: 81.7%  (errors: 0)
+  3700/4800 judged  |  accuracy so far: 81.9%  (errors: 0)
+  3750/4800 judged  |  accuracy so far: 82.1%  (errors: 0)
+  3800/4800 judged  |  accuracy so far: 82.3%  (errors: 0)
+  3850/4800 judged  |  accuracy so far: 82.2%  (errors: 0)
+  3900/4800 judged  |  accuracy so far: 82.3%  (errors: 0)
+  3950/4800 judged  |  accuracy so far: 82.5%  (errors: 0)
+  4000/4800 judged  |  accuracy so far: 82.4%  (errors: 0)
+  4050/4800 judged  |  accuracy so far: 82.4%  (errors: 0)
+  4100/4800 judged  |  accuracy so far: 82.5%  (errors: 0)
+  4150/4800 judged  |  accuracy so far: 82.7%  (errors: 0)
+  4200/4800 judged  |  accuracy so far: 82.8%  (errors: 0)
+  4250/4800 judged  |  accuracy so far: 83.0%  (errors: 0)
+  4300/4800 judged  |  accuracy so far: 83.2%  (errors: 0)
+  4350/4800 judged  |  accuracy so far: 83.4%  (errors: 0)
+  4400/4800 judged  |  accuracy so far: 83.3%  (errors: 0)
+  4450/4800 judged  |  accuracy so far: 83.1%  (errors: 0)
+  4500/4800 judged  |  accuracy so far: 83.3%  (errors: 0)
+  4550/4800 judged  |  accuracy so far: 83.4%  (errors: 0)
+  4600/4800 judged  |  accuracy so far: 83.4%  (errors: 0)
+  4650/4800 judged  |  accuracy so far: 83.4%  (errors: 0)
+  4700/4800 judged  |  accuracy so far: 83.4%  (errors: 0)
+  4750/4800 judged  |  accuracy so far: 83.3%  (errors: 0)
+  4800/4800 judged  |  accuracy so far: 83.5%  (errors: 0)
+Wrote 4800 rows to study/output/qwen2.5-7b/judged.jsonl
+Overall judge accuracy: 4008/4800 = 83.5%
+
+[4/4] Computing metrics...
+  Loaded 4800 rows from study/output/qwen2.5-7b/judged.jsonl
+sentence-transformers not installed — skipping StabSem. Install with: pip install sentence-transformers
+
+Tri-zone thresholds — EAS median: 0.0000  SensJudge threshold: 0.0000  (SensJudge median=0.0000)
+Saved instance metrics → study/output/qwen2.5-7b/metrics_instance.csv
+
+TRI-ZONE COUNTS BY (DATASET, MODEL)
+trizone                   stable
+dataset       model_name        
+arc_challenge qwen2.5:7b     200
+boolq         qwen2.5:7b     200
+squad         qwen2.5:7b     200
+
+MEAN EAS BY DATASET
+               sens_heuristic  sens_judge     eas
+dataset                                          
+arc_challenge          0.0338      0.1711  0.1514
+boolq                  0.0310      0.0730  0.0574
+squad                  0.1994      0.0750  0.2263
+
+Saved dataset metrics → study/output/qwen2.5-7b/metrics_dataset.csv
+
+STRUCTURAL ABLATION: FACTOR MAIN EFFECTS
+Model                               Factor     ΔHeuristic     ΔJudge     Δ(H-J)
+  qwen2.5:7b                        role          -0.0006    -0.0017    +0.0011
+  qwen2.5:7b                        fmt           +0.1202    +0.0625    +0.0577
+  qwen2.5:7b                        prefix        +0.0017    -0.0075    +0.0092
+  Warning: dataset CSV not found at study/output/metrics_dataset.csv — skipping Fig 5
+Generating figures...
+  Saved study/output/qwen2.5-7b/figures/fig1_trizone.png
+  Saved study/output/qwen2.5-7b/figures/fig2_scatter.png
+  Saved study/output/qwen2.5-7b/figures/fig3_ablation.png
+  Saved study/output/qwen2.5-7b/figures/fig4_eas_by_task.png
+  Saved study/output/qwen2.5-7b/figures/fig6_signed_eas.png
+Done.
+
+Done. Results in study/output/qwen2.5-7b/
