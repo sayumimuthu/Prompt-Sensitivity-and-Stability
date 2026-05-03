@@ -1,3 +1,6 @@
+"""
+2x2x2 prompt templates.
+
 Three binary structural factors:
   R = Role framing    (0=absent, 1=present)
   F = Format directive(0=absent, 1=present)
@@ -37,7 +40,6 @@ def build_prompt(item: Dict[str, Any], dataset: str,
         parts.append(f"Question: {item['question']}\n{opts_text}\n")
         if fmt:
             parts.append(FORMAT_TEXT["arc_challenge"])
-
     elif dataset == "boolq":
         parts.append(f"Passage: {item['passage']}\nQuestion: {item['question']}\n")
         if fmt:
@@ -80,4 +82,5 @@ if __name__ == "__main__":
     for t in all_templates(dummy, "arc_challenge"):
         print(f"\n {t['template_id']} (role={t['role']} fmt={t['fmt']} prefix={t['prefix']}) ---")
         print(t["prompt"])
+
 
