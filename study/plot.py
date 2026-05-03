@@ -1,9 +1,12 @@
 """
-Generate the three paper figures from metrics_instance.csv.
+Generate the figures from metrics_instance.csv.
 
 Figure 1: Tri-zone bar chart — fraction of instances in each zone, by dataset × model.
 Figure 2: Scatter — SensHeuristic vs SensJudge, colored by tri-zone, per model.
 Figure 3: Structural ablation heatmap — factor effects on heuristic vs judge scores.
+Figure 4 : EAS by task type
+Figure 5: Mean EAS with bootstrap CI by dataset × model
+Figure 6: Signed EAS
 
 Usage:
     python study/plot.py \
@@ -190,7 +193,7 @@ def figure3_ablation(inst_df: pd.DataFrame, out_path: Path) -> None:
     print(f"  Saved {out_path}")
 
 
-# Figure 4 : EAS by task type (violin / box)
+# Figure 4 : EAS by task type 
 
 def figure4_eas_by_task(inst_df: pd.DataFrame, out_path: Path) -> None:
     models  = sorted(inst_df["model_name"].unique())
@@ -364,3 +367,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

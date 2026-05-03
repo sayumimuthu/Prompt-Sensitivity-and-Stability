@@ -1,4 +1,0 @@
-dataset,model_name,task_type,sens_heuristic_mean,sens_heuristic_std,sens_judge_mean,sens_judge_std,eas_mean,eas_std,mean_heuristic,mean_judge,stab_sem_mean,n_artifact,n_genuine,n_stable,n_items
-arc_challenge,HuggingFaceTB/SmolLM2-1.7B-Instruct,mcq,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,0,10,10
-boolq,HuggingFaceTB/SmolLM2-1.7B-Instruct,boolean,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,0,10,10
-squad,HuggingFaceTB/SmolLM2-1.7B-Instruct,open_ended,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0,0,10,10

@@ -1,6 +1,3 @@
-"""
-2x2x2 prompt template factory.
-
 Three binary structural factors:
   R = Role framing    (0=absent, 1=present)
   F = Format directive(0=absent, 1=present)
@@ -74,12 +71,13 @@ def all_templates(item: Dict[str, Any], dataset: str) -> List[Dict[str, Any]]:
 
 
 if __name__ == "__main__":
-    # Quick sanity check
+    # Quick check
     dummy = {
         "question": "What is 2+2?",
         "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
         "gold_answer": "B",
     }
     for t in all_templates(dummy, "arc_challenge"):
-        print(f"\n--- {t['template_id']} (role={t['role']} fmt={t['fmt']} prefix={t['prefix']}) ---")
+        print(f"\n {t['template_id']} (role={t['role']} fmt={t['fmt']} prefix={t['prefix']}) ---")
         print(t["prompt"])
+

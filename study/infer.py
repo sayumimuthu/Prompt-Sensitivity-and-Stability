@@ -2,14 +2,14 @@
 Run inference over prompts.jsonl.
 
 Backends:
-  ollama    — local Ollama server (default; works with port 2720 + API key)
-  hf_local  — load model directly via transformers (no API key needed)
+  ollama    — local Ollama server 
+  hf_local  — load model directly via transformers 
 
 Usage:
-    # Ollama (default)
+    # Ollama 
     python study/infer.py --model llama3.1:8b --out-file study/output/llama_responses.jsonl
 
-    # HF local (small model)
+    # HF local 
     python study/infer.py --backend hf_local --model HuggingFaceTB/SmolLM2-1.7B-Instruct \
         --out-file study/output/smollm_responses.jsonl
 """
@@ -241,3 +241,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

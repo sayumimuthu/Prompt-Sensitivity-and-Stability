@@ -3,20 +3,20 @@ LLM-as-Judge: for each response, ask a judge LLM whether it correctly answers
 the question. Adds 'judge_correct' (bool) and 'judge_raw' (str) to each row.
 
 Backends:
-  hf_local  — load judge model directly via transformers (no server, no API key)
-  ollama    — Ollama server (requires server running + optional API key)
+  hf_local  — load judge model directly via transformers 
+  ollama    — Ollama server 
 
 The judge prompt follows Hua et al. (2509.01790v1).
 
 Usage:
-    # HF local (no server needed — default)
+    # HF local 
     python study/judge.py \
         --in-file  study/output/smollm/responses.jsonl \
         --out-file study/output/smollm/judged.jsonl \
         --judge-backend hf_local \
         --judge-model HuggingFaceTB/SmolLM2-1.7B-Instruct
 
-    # Ollama (if server is running)
+    # Ollama 
     python study/judge.py \
         --in-file  study/output/llama/responses.jsonl \
         --out-file study/output/llama/judged.jsonl \
@@ -34,9 +34,7 @@ from typing import Any, Dict, List, Optional
 import requests
 
 
-# ---------------------------------------------------------------------------
-# Judge prompt
-# ---------------------------------------------------------------------------
+# Judge prompt  
 
 JUDGE_SYSTEM = (
     "You are a strict but fair evaluator. "
@@ -58,9 +56,7 @@ Respond with only "correct" or "incorrect".\
 """
 
 
-# ---------------------------------------------------------------------------
-# Utilities
-# ---------------------------------------------------------------------------
+# Utilities 
 
 def _load_env(path: str) -> None:
     try:
@@ -102,12 +98,9 @@ def parse_verdict(text: str) -> bool:
         return False
     if "correct" in t:
         return True
-    return False   # conservative default
+    return False   
 
-
-# ---------------------------------------------------------------------------
 # Ollama backend
-# ---------------------------------------------------------------------------
 
 def _judge_ollama(judge_prompt: str, model: str,
                   base_url: str, api_key: Optional[str]) -> str:
@@ -145,9 +138,7 @@ def _judge_ollama(judge_prompt: str, model: str,
     raise RuntimeError(f"Ollama judge failed: model={model} at {base_url}")
 
 
-# ---------------------------------------------------------------------------
-# HF local backend
-# ---------------------------------------------------------------------------
+# HF local backend 
 
 _HF_JUDGE_CACHE: Dict[str, Any] = {}
 
@@ -197,9 +188,7 @@ def _judge_hf_local(judge_prompt: str, model: str, device: str) -> str:
     return tokenizer.decode(new_ids, skip_special_tokens=True).strip().lower()
 
 
-# ---------------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------------
+# Main 
 
 def main() -> None:
     _load_env("att1/.env")
@@ -291,3 +280,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

@@ -1,116 +1,86 @@
 """
-Load 30 items from ARC-Challenge, BoolQ, and SQuAD.
-Apply all 8 prompt templates per item → write prompts.jsonl.
+2x2x2 prompt templates.
 
-Usage:
-    python study/prepare.py --n 30 --seed 42 --out-dir study/output
+Three binary structural factors:
+  R = Role framing    (0=absent, 1=present)
+  F = Format directive(0=absent, 1=present)
+  P = Answer prefix   (0=absent, 1=present)
+
+Gives 8 templates per dataset (index = R*4 + F*2 + P).
+Template ID string: T{R}{F}{P}, e.g. T101 = role + prefix, no format.
 """
 
-import argparse
-import json
-import random
-import sys
-from pathlib import Path
 from typing import Any, Dict, List
 
-# Allow importing templates.py from same directory
-sys.path.insert(0, str(Path(__file__).parent))
-from templates import all_templates
+
+ROLE_TEXT = "You are a careful and accurate assistant.\n"
+
+FORMAT_TEXT: Dict[str, str] = {
+    "arc_challenge": "Respond with only the letter of the correct option (A, B, C, or D).\n",
+    "boolq":         "Respond with only 'yes' or 'no'.\n",
+    "squad":         "Respond with a short phrase or sentence directly answering the question.\n",
+}
+
+PREFIX_TEXT = "Answer:"
 
 
-def load_arc_challenge(n: int, seed: int) -> List[Dict[str, Any]]:
-    from datasets import load_dataset
-    ds = load_dataset("ai2_arc", "ARC-Challenge", split="test")
-    rng = random.Random(seed)
-    indices = rng.sample(range(len(ds)), min(n, len(ds)))
-    items = []
-    for idx in indices:
-        row = ds[idx]
-        labels = row["choices"]["label"]
-        texts  = row["choices"]["text"]
-        options = [f"{lbl}) {txt}" for lbl, txt in zip(labels, texts)]
-        items.append({
-            "id":          f"arc_{idx}",
-            "dataset":     "arc_challenge",
-            "question":    row["question"],
-            "options":     options,
-            "gold_answer": row["answerKey"],
-            "task_type":   "mcq",
-        })
-    return items
+def make_template_id(role: bool, fmt: bool, prefix: bool) -> str:
+    return f"T{int(role)}{int(fmt)}{int(prefix)}"
 
 
-def load_boolq(n: int, seed: int) -> List[Dict[str, Any]]:
-    from datasets import load_dataset
-    ds = load_dataset("google/boolq", split="validation")
-    rng = random.Random(seed)
-    indices = rng.sample(range(len(ds)), min(n, len(ds)))
-    items = []
-    for idx in indices:
-        row = ds[idx]
-        items.append({
-            "id":          f"boolq_{idx}",
-            "dataset":     "boolq",
-            "question":    row["question"],
-            "passage":     row["passage"][:800],
-            "gold_answer": "yes" if row["answer"] else "no",
-            "task_type":   "boolean",
-        })
-    return items
+def build_prompt(item: Dict[str, Any], dataset: str,
+                 role: bool, fmt: bool, prefix: bool) -> str:
+    parts: List[str] = []
+
+    if role:
+        parts.append(ROLE_TEXT)
+
+    if dataset == "arc_challenge":
+        opts_text = "\n".join(item["options"])
+        parts.append(f"Question: {item['question']}\n{opts_text}\n")
+        if fmt:
+            parts.append(FORMAT_TEXT["arc_challenge"])
+
+    elif dataset == "boolq":
+        parts.append(f"Passage: {item['passage']}\nQuestion: {item['question']}\n")
+        if fmt:
+            parts.append(FORMAT_TEXT["boolq"])
+
+    elif dataset == "squad":
+        parts.append(f"Context: {item['context']}\nQuestion: {item['question']}\n")
+        if fmt:
+            parts.append(FORMAT_TEXT["squad"])
+
+    if prefix:
+        parts.append(PREFIX_TEXT)
+
+    return "".join(parts)
 
 
-def load_squad(n: int, seed: int) -> List[Dict[str, Any]]:
-    from datasets import load_dataset
-    ds = load_dataset("rajpurkar/squad", split="validation")
-    rng = random.Random(seed)
-    indices = rng.sample(range(len(ds)), min(n, len(ds)))
-    items = []
-    for idx in indices:
-        row = ds[idx]
-        items.append({
-            "id":               f"squad_{idx}",
-            "dataset":          "squad",
-            "question":         row["question"],
-            "context":          row["context"][:800],
-            "gold_answer":      row["answers"]["text"][0],
-            "all_gold_answers": row["answers"]["text"],
-            "task_type":        "open_ended",
-        })
-    return items
-
-
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Prepare prompts for the prompt-sensitivity study.")
-    parser.add_argument("--n",       type=int, default=30,            help="Items per dataset")
-    parser.add_argument("--seed",    type=int, default=42)
-    parser.add_argument("--out-dir", default="study/output")
-    args = parser.parse_args()
-
-    out_dir = Path(args.out_dir)
-    out_dir.mkdir(parents=True, exist_ok=True)
-
-    loaders = [
-        ("arc_challenge", load_arc_challenge),
-        ("boolq",         load_boolq),
-        ("squad",         load_squad),
-    ]
-
-    all_prompts: List[Dict[str, Any]] = []
-    for dataset_name, loader in loaders:
-        items = loader(args.n, args.seed)
-        print(f"  Loaded {len(items)} items from {dataset_name}")
-        for item in items:
-            for tmpl in all_templates(item, dataset_name):
-                all_prompts.append({**item, **tmpl})
-
-    out_file = out_dir / "prompts.jsonl"
-    with out_file.open("w", encoding="utf-8") as f:
-        for row in all_prompts:
-            f.write(json.dumps(row, ensure_ascii=True) + "\n")
-
-    expected = args.n * 3 * 8
-    print(f"Wrote {len(all_prompts)} prompts to {out_file}  (expected {expected})")
+def all_templates(item: Dict[str, Any], dataset: str) -> List[Dict[str, Any]]:
+    """Return list of 8 dicts: template_id, role, fmt, prefix, prompt."""
+    results = []
+    for role in (False, True):
+        for fmt in (False, True):
+            for prefix in (False, True):
+                results.append({
+                    "template_id": make_template_id(role, fmt, prefix),
+                    "role": int(role),
+                    "fmt": int(fmt),
+                    "prefix": int(prefix),
+                    "prompt": build_prompt(item, dataset, role, fmt, prefix),
+                })
+    return results
 
 
 if __name__ == "__main__":
-    main()
+    # Quick check
+    dummy = {
+        "question": "What is 2+2?",
+        "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+        "gold_answer": "B",
+    }
+    for t in all_templates(dummy, "arc_challenge"):
+        print(f"\n {t['template_id']} (role={t['role']} fmt={t['fmt']} prefix={t['prefix']}) ---")
+        print(t["prompt"])
+
